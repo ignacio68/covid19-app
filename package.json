@@ -23,6 +23,7 @@
     "nativescript-vue-devtools": "^1.2.0",
     "tns-core-modules": "^6.0.0",
     "vue-class-component": "^7.2.3",
+    "vue-i18n": "^8.15.4",
     "vue-property-decorator": "^8.4.0",
     "vuex": "^3.1.1"
   },
