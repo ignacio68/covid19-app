@@ -1,20 +1,24 @@
 <template>
     <Page>
-        <ActionBar title="Welcome to NativeScript-Vue!"/>
-        <GridLayout columns="*" rows="*">
-            <Label class="message" :text="msg" col="0" row="0"/>
-        </GridLayout>
+        <ActionBar title="COVID-19 App"/>
+        <StackLayout>
+            <Label class="message" text="Root Component"/>
+            <MyComp msg="Covid-19 App"
+        </StackLayout>
     </Page>
 </template>
 
 <script lang="ts">
-  export default {
-    data() {
-      return {
-        msg: 'Hello World!'
-      }
+  import { Component, Vue } from 'vue-property-decorator'
+  import MyComp from './MyComp.vue'
+
+  @Component({
+    components: {
+      MyComp
     }
-  }
+  })
+  export default class App extends Vue {
+   }
 </script>
 
 <style scoped>
