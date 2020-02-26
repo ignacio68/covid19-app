@@ -1,5 +1,5 @@
 import { views } from './views'
 
-export {
+export const esEs = {
   views
 }

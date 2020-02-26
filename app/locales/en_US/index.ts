@@ -1,5 +1,5 @@
-import {views} from './views'
+import { views } from './views'
 
-export {
+export const enUs = {
   views
 }
