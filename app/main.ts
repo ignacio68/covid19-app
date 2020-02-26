@@ -19,7 +19,7 @@ import i18n from "./setup/i18n"
 import VueDevtools from "nativescript-vue-devtools"
 
 // Add view components
-import AppNavigator from "./Views/AppNavigator.vue"
+import AppNavigator from "./views/AppNavigator.vue"
 
 if (TNS_ENV !== "production") {
   Vue.use(VueDevtools)
