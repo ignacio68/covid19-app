@@ -1,6 +1,6 @@
 <template>
   <StackLayout>
-    <Map
+    <MapComponent
       :accessToken="accessToken"
       userLatitude="45.137451890638886"
       userLongitude="-68.13734351262877"
@@ -9,11 +9,14 @@
 </template>
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import MapComponent from './Main/Map.vue'
+import { mapboxToken } from '@/setup/Mapbox'
+import MapComponent from '@/components/Main/MapComponent.vue'
 @Component ({
-  Map: MapComponent
+  components: {
+     MapComponent
+  }
 })
-export default class Map extend Vue {
+export default class Map extends Vue {
   private accessToken = mapboxToken
 }
 </script>
