@@ -27,7 +27,7 @@ import { Component, Prop, Emit, Vue } from 'vue-property-decorator'
   // }
 })
 export default class MapComponent extends Vue {
-  @Prop(String) readonly accessToken: string | undefined
+  @Prop(String) readonly accessToken!: string | undefined
   @Prop({default: "45.137451890638886"}) readonly userLatitude!: string
   @Prop({default: "-68.13734351262877"}) readonly userLongitude!: string
 
