@@ -1,16 +1,16 @@
 import Vue from 'vue';
-import Vuex from 'vuex';
+import Vuex, { StoreOptions } from 'vuex';
+import { RootState } from '@/store/types'
 
 Vue.use(Vuex);
 
-export default new Vuex.Store({
+const store: StoreOptions<RootState> = {
   state: {
-
+    appName: 'Covis-19 application',
+    appVersion: '0.0.1'
   },
-  mutations: {
+  modules: {},
+  plugins: []
+}
 
-  },
-  actions: {
-
-  }
-});
+export default new Vuex.Store<RootState>(store)
