@@ -13,12 +13,12 @@ import esEs from "@/locales/es_ES"
 /**
  * Import number formats
  */
-import { numberFormats } from "@locales/numberFormats"
+import { numberFormats } from "@/locales/numberFormats"
 
 /**
  * Import date formats
  */
-import { dateTimeFormats } from "@locales/dateTimeFormats"
+import { dateTimeFormats } from "@/locales/dateTimeFormats"
 
 /**
  * Config
