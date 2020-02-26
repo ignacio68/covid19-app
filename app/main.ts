@@ -29,9 +29,11 @@ if (TNS_ENV !== "production") {
 // Prints Vue logs when --env.production is *NOT* set while building
 Vue.config.silent = TNS_ENV === "production"
 
+// Add Mapbox component
+Vue.registerElement('Mapbox', () => require('nativescript-mapbox').MapboxView)
+
 new Vue({
   store,
-  i18n,
   beforeCreate() {
     // Set the platform OS global variable
     Vue.prototype.IS_ANDROID = isAndroid
@@ -47,7 +49,7 @@ new Vue({
       // const lang = val.slice(0, 2)
       i18n.locale = lang
       console.log("El idioma del navegador es: " + val)
-      this.$store.commit("shared/SET_LANGUAGE", lang)
+      // this.$store.commit("shared/SET_LANGUAGE", lang)
     } else {
       console.log("No se encuentra el idioma del navegador")
     }

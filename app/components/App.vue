@@ -2,8 +2,12 @@
     <Page>
         <ActionBar title="COVID-19 App"/>
         <StackLayout>
-            <Label class="message" text="Root Component"/>
-            <MyComp msg="Covid-19 App"
+            <MyComp msg="Covid-19 App" />
+            <Map
+              :accessToken="accessToken"
+              userLatitude="45.137451890638886"
+              userLongitude="-68.13734351262877"
+            />
         </StackLayout>
     </Page>
 </template>
@@ -11,13 +15,17 @@
 <script lang="ts">
   import { Component, Vue } from 'vue-property-decorator'
   import MyComp from './MyComp.vue'
+  import Map from './Main/Map.vue'
+  import { mapboxToken } from '@/setup/Mapbox'
 
   @Component({
     components: {
-      MyComp
+      MyComp,
+      Map
     }
   })
   export default class App extends Vue {
+    private accessToken = mapboxToken
    }
 </script>
 
