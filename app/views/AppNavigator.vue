@@ -8,18 +8,27 @@
             <!-- <Image src="font://&#xf015;" class="fas"/> -->
             </TabStripItem>
             <TabStripItem>
+            <Label text="Charts"/>
+            <!-- <Image src="font://&#xf015;" class="fas"/> -->
+            </TabStripItem>
+            <TabStripItem>
             <Label text="Info"/>
             <!-- <Image src="font://&#xf015;" class="fas"/> -->
             </TabStripItem>
           </TabStrip>
           <TabContentItem>
             <Frame>
-              <Map />
+              <Map/>
             </Frame>
           </TabContentItem>
           <TabContentItem>
             <Frame>
-              <Info />
+              <Charts/>
+            </Frame>
+          </TabContentItem>
+          <TabContentItem>
+            <Frame>
+              <Info/>
             </Frame>
           </TabContentItem>
         </BottomNavigation>
@@ -29,10 +38,12 @@
 <script lang="ts">
   import { Component, Vue } from 'vue-property-decorator'
   import Map from './Main/Map.vue'
+  import Charts from './Main/Charts.vue'
   import Info from './Main/Info.vue'
   @Component({
     components: {
       Map,
+      Charts,
       Info
     }
   })
