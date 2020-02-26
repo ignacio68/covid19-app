@@ -44,11 +44,8 @@ new Vue({
     const val = device.language
     const lang = val.slice(0, 2)
     if (lang) {
-      // const lang = val.replace('-', '')
-      // const lang = val.slice(0, 2)
       i18n.locale = lang
       console.log("El idioma del navegador es: " + val)
-      // this.$store.commit("shared/SET_LANGUAGE", lang)
     } else {
       console.log("No se encuentra el idioma del navegador")
     }
