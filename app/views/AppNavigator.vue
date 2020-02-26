@@ -1,44 +1,48 @@
 <template>
     <Page>
         <ActionBar title="COVID-19 App"/>
-        <StackLayout>
-            <MyComp msg="Covid-19 App" />
-            <Map
-              :accessToken="accessToken"
-              userLatitude="45.137451890638886"
-              userLongitude="-68.13734351262877"
-            />
-        </StackLayout>
+        <BottomNavigation selectedIndex="0">
+          <TabStrip>
+            <TabStripItem>
+            <Label text="Maps"/>
+            <!-- <Image src="font://&#xf015;" class="fas"/> -->
+            </TabStripItem>
+            <TabStripItem>
+            <Label text="Info"/>
+            <!-- <Image src="font://&#xf015;" class="fas"/> -->
+            </TabStripItem>
+          </TabStrip>
+          <TabContentItem>
+            <Frame>
+              <Map />
+            </Frame>
+          </TabContentItem>
+          <TabContentItem>
+            <Frame>
+              <Info />
+            </Frame>
+          </TabContentItem>
+        </BottomNavigation>
     </Page>
 </template>
 
 <script lang="ts">
   import { Component, Vue } from 'vue-property-decorator'
-  import MyComp from './MyComp.vue'
   import Map from './Main/Map.vue'
-  import { mapboxToken } from '@/setup/Mapbox'
-
+  import Info from './Main/Info.vue'
   @Component({
     components: {
-      MyComp,
-      Map
+      Map,
+      Info
     }
   })
   export default class AppNavigator extends Vue {
-    private accessToken = mapboxToken
-   }
+  }
 </script>
 
 <style scoped>
     ActionBar {
         background-color: #53ba82;
         color: #ffffff;
-    }
-
-    .message {
-        vertical-align: center;
-        text-align: center;
-        font-size: 20;
-        color: #333333;
     }
 </style>
