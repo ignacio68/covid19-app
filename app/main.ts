@@ -14,6 +14,7 @@ import { device, isAndroid, isIOS } from "tns-core-modules/platform"
 import store from "./store"
 
 // Import languages
+// @ts-ignore
 import i18n from "./setup/i18n"
 
 import VueDevtools from "nativescript-vue-devtools"

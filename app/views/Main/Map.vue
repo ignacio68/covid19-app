@@ -9,6 +9,7 @@
 </template>
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
+
 import { mapboxToken } from '@/setup/Mapbox'
 import MapComponent from '@/components/Main/MapComponent.vue'
 @Component ({
@@ -17,6 +18,6 @@ import MapComponent from '@/components/Main/MapComponent.vue'
   }
 })
 export default class Map extends Vue {
-  private accessToken = mapboxToken
+  private accessToken: string = mapboxToken
 }
 </script>

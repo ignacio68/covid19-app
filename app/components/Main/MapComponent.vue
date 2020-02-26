@@ -24,8 +24,8 @@ import { Component, Prop, Vue } from 'vue-property-decorator'
   // }
 })
 export default class MapComponent extends Vue {
-  @Prop() accessToken: string
-  @Prop({default: "45.137451890638886"}) userLatitude: string
-  @Prop({default: "-68.13734351262877"}) userLongitude: string
+  @Prop() accessToken!: string | undefined
+  @Prop({default: "45.137451890638886"}) userLatitude!: string
+  @Prop({default: "-68.13734351262877"}) userLongitude!: string
 }
 </script>
