@@ -10,12 +10,15 @@
       :latitude="userLatitude"
       :longitude="userLongitude"
       zoomLevel="5"
+      :hideCompass="true"
+      :disableRotation="true"
+      :mapReady="onMapReady()"
     ></MapBox>
   </AbsoluteLayout>
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from 'vue-property-decorator'
+import { Component, Prop, Emit, Vue } from 'vue-property-decorator'
 // import { Mapbox } from 'nativescript-mapbox'
 
 @Component({
@@ -24,8 +27,12 @@ import { Component, Prop, Vue } from 'vue-property-decorator'
   // }
 })
 export default class MapComponent extends Vue {
-  @Prop() accessToken!: string | undefined
-  @Prop({default: "45.137451890638886"}) userLatitude!: string
-  @Prop({default: "-68.13734351262877"}) userLongitude!: string
+  @Prop(String) readonly accessToken: string | undefined
+  @Prop({default: "45.137451890638886"}) readonly userLatitude!: string
+  @Prop({default: "-68.13734351262877"}) readonly userLongitude!: string
+
+  @Emit('onMapReady')
+  onMapReady(){}
+
 }
 </script>
