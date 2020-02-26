@@ -24,7 +24,7 @@
       Map
     }
   })
-  export default class App extends Vue {
+  export default class AppNavigator extends Vue {
     private accessToken = mapboxToken
    }
 </script>

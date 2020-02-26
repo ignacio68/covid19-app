@@ -19,8 +19,7 @@ import i18n from "./setup/i18n"
 import VueDevtools from "nativescript-vue-devtools"
 
 // Add view components
-// import AppNavigator from './AppNavigator'
-import App from "./components/App.vue"
+import AppNavigator from "./Views/AppNavigator.vue"
 
 if (TNS_ENV !== "production") {
   Vue.use(VueDevtools)
@@ -54,5 +53,5 @@ new Vue({
       console.log("No se encuentra el idioma del navegador")
     }
   },
-  render: h => h("frame", [h(App)])
+  render: h => h("frame", [h(AppNavigator)])
 }).$start()
