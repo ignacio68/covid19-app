@@ -1,5 +1,5 @@
 <template>
-  <Page>
+  <Page actionBarHidden="true">
     <StackLayout horizontalAligment="center">
       <Label
         class="h1"

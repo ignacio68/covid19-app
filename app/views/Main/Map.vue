@@ -1,12 +1,6 @@
 <template>
-  <Page>
+  <Page actionBarHidden="true">
     <StackLayout>
-      <Label
-        class="h3"
-        color="blue"
-        :text="accessToken"
-        textWrap="true"
-      />
       <MapComponent
         :accessToken="accessToken"
         userLatitude="45.137451890638886"
