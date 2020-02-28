@@ -1,5 +1,7 @@
-import { countriesListCoord } from './countriesListCoord'
+import { countriesList } from './countriesList'
+import { countriesListCapital } from './countriesListCapital'
 
 export const countries = {
-  countriesListCoord
+  countriesList,
+  countriesListCapital,
 }
