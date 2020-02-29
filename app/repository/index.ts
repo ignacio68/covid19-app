@@ -1,5 +1,1 @@
-import { countriesList } from './countriesList'
-
-export const countries = {
-  countriesList
-}
+export * from './countriesList'
