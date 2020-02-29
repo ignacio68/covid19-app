@@ -33,6 +33,7 @@ Vue.config.silent = TNS_ENV === "production"
 Vue.registerElement('Mapbox', () => require('nativescript-mapbox').MapboxView)
 
 new Vue({
+  i18n,
   store,
   beforeCreate() {
     // Set the platform OS global variable
