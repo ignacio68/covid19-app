@@ -1,4 +1,4 @@
-export const numberFormats = {
+export const numberFormats: object = {
   enUS: {
     currency: {
       style: "currency",
