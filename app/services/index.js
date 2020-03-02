@@ -1,1 +1,3 @@
-export * from './countries/repository'
+export * from './countries'
+export * from './covid19'
+export * from './map'
