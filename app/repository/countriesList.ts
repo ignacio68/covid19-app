@@ -1,4 +1,5 @@
-export const countriesList = [
+import { ICountry } from './interfaces'
+export const countriesList: Array<ICountry> = [
   {
       "id": 1,
       "enabled": true,
@@ -15,8 +16,8 @@ export const countriesList = [
       "enabled": true,
       "code3l": "ALA",
       "code2l": "AX",
-      "name": "\u00c5land Islands",
-      "name_official": "\u00c5land Islands",
+      "name": "Åland Islands",
+      "name_official": "Åland Islands",
       "latitude": "60.25403213",
       "longitude": "20.35918350",
       "zoom": 9
