@@ -1,5 +1,4 @@
-import { ICountry } from './interfaces'
-export const countriesList: Array<ICountry> = [
+export const countriesList = [
   {
       "id": 1,
       "enabled": true,

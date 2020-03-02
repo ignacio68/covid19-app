@@ -1,1 +1,1 @@
-export { Repository } from './repository'
+export { getCountry } from './countries'
