@@ -4,11 +4,11 @@ import { countriesList } from '@/repository'
 import { IMarker } from './interfaces'
 
 function setMarker(countryCode: string){
-  let countryData = getCountry(countryCode)
-  let covid19CountryData = getCovid19CountryData(countryCode)
+  const countryData = getCountry(countryCode)
+  const covid19CountryData = getCovid19CountryData(countryCode)
   // countryData = countryData.concat(covid19CountryData)
-  let newcountryData = countryData.concat(covid19CountryData) // TFIXME: repare error!!
-  return countryData
+  const marker = { ...countryData, ...covid19CountryData }
+  return marker
 }
 
 export function getMarkers() {
