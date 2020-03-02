@@ -12,7 +12,7 @@
       zoomLevel="zoomLevel"
       :hideCompass="true"
       :disableRotation="true"
-      :mapReady="onMapReady(args)"
+      @mapReady="onMapReady"
     ></MapBox>
   </AbsoluteLayout>
 </template>
@@ -28,13 +28,21 @@ import { Component, Prop, Emit, Vue } from 'vue-property-decorator'
 })
 export default class MapComponent extends Vue {
   @Prop(String) readonly accessToken!: string | undefined
-  @Prop({default: "5"}) readonly zoomLevel!: string
+  @Prop({default: 5}) readonly zoomLevel!: number | string
   @Prop({default: "45.137451890638886"}) readonly userLatitude!: string
   @Prop({default: "-68.13734351262877"}) readonly userLongitude!: string
 
-
-  @Emit('onMapReady')
-  onMapReady(args){}
-
+  onMapReady(e){
+    console.log('MAP READY!!!!')
+    this.$emit('onMapReady', e)
+    // console.log(e)
+  }
 }
+
+//   @Emit()
+//   onMapReady(e){
+//     console.log('MAP READY!!!')
+//     return e.target.value
+//   }
+// }
 </script>

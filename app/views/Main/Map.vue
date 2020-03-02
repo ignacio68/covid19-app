@@ -1,29 +1,22 @@
 <template>
   <Page actionBarHidden="true">
     <StackLayout>
-      <Label
-        :text="$t('lang.views.welcome.header')"
-        textWrap="true"
-      />
       <MapComponent
         :accessToken="accessToken"
-        zoomLevel="5"
+        :zoomLevel="6"
         userLatitude="39.8729940"
         userLongitude="-3.67089492"
-        :onMapReady="onMapReady()"
-      />
-      <Button
-        @tap="onTap"
+        @onMapReady="showMarkers($event)"
       />
     </StackLayout>
   </Page>
 </template>
 <script lang="ts">
-import { Component, Ref, Vue } from 'vue-property-decorator'
+import { Component, Vue } from 'vue-property-decorator'
 // import mapbox from 'nativescript-mapbox'
 import { mapboxToken } from '@/setup/Mapbox'
 import MapComponent from '@/components/Main/MapComponent.vue'
-import { countriesList } from '@/repository'
+// import { countriesList } from '@/repository'
 
 @Component({
   components: {
@@ -31,24 +24,19 @@ import { countriesList } from '@/repository'
   }
 })
 export default class Map extends Vue {
-  // @Ref() readonly map!: MapComponent
 
   private accessToken: string = mapboxToken
 
-  created() {
-  }
-  onMapReady() {
-  //   args.map.addMarkers([
-  //     {
-  //       lat: 39.87299401,
-  //       lng: -3.67089492
-  //     }
-  //   ])
-  }
-  onTap() {
-    console.log('Me has pulsado!!')
-    // const country = 'Spain'
-    // myRepository.getCountryCoordenates(country)
+
+  showMarkers(args) {
+    console.log('Estoy en showMarkers')
+    console.log(`args: ${args}`)
+    args.map.addMarkers([
+      {
+        lat: 39.87299401,
+        lng: -3.67089492
+      }
+    ])
   }
 }
 </script>
