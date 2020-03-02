@@ -13,20 +13,18 @@
 </template>
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-// import mapbox from 'nativescript-mapbox'
-import { mapboxToken } from '@/setup/Mapbox'
+simport { mapboxToken } from '@/setup/Mapbox'
 import MapComponent from '@/components/Main/MapComponent.vue'
-// import { countriesList } from '@/repository'
 
 @Component({
   components: {
     MapComponent
   }
 })
+
 export default class Map extends Vue {
 
   private accessToken: string = mapboxToken
-
 
   showMarkers(args) {
     console.log('Estoy en showMarkers')

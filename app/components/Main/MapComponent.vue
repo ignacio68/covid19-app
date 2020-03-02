@@ -18,15 +18,13 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Emit, Vue } from 'vue-property-decorator'
-// import { Mapbox } from 'nativescript-mapbox'
+import
+ { Component, Prop, Emit, Vue } from 'vue-property-decorator'
 
-@Component({
-  // components: {
-  //   Mapbox
-  // }
-})
+@Component({})
+
 export default class MapComponent extends Vue {
+
   @Prop(String) readonly accessToken!: string | undefined
   @Prop({default: 5}) readonly zoomLevel!: number | string
   @Prop({default: "45.137451890638886"}) readonly userLatitude!: string
