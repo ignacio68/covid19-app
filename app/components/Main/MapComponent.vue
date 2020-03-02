@@ -1,7 +1,6 @@
 <template>
   <AbsoluteLayout class="map">
     <MapBox
-      ref="map"
       left="0"
       top="0"
       width="100%"
@@ -13,7 +12,7 @@
       zoomLevel="zoomLevel"
       :hideCompass="true"
       :disableRotation="true"
-      :mapReady="onMapReady()"
+      :mapReady="onMapReady(args)"
     ></MapBox>
   </AbsoluteLayout>
 </template>
@@ -35,7 +34,7 @@ export default class MapComponent extends Vue {
 
 
   @Emit('onMapReady')
-  onMapReady(){}
+  onMapReady(args){}
 
 }
 </script>
