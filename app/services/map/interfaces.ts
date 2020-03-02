@@ -1,12 +1,4 @@
-export interface Imarker {
-  lat: string,
-  lng: string,
-  icon: string,
-  selected: boolean,
-  popup: Ipopup
-}
-
-export interface Ipopup {
+interface IPopup {
   country: string,
   confirmedTitle: string,
   confirmed: string
@@ -19,3 +11,12 @@ export interface Ipopup {
   totalDeathsTitle: string,
   totalDeaths: string
 }
+
+export interface IMarker {
+  lat: string,
+  lng: string,
+  icon: string,
+  selected: boolean,
+  popup: IPopup
+}
+
