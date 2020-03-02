@@ -9,7 +9,7 @@ module.exports = {
     // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
     'plugin:vue/recommended',
     'eslint:recommended',
-    '@vue/typescript/recommended',
+    // '@vue/typescript/recommended',
     // "prettier/vue",
     // 'plugin:prettier/recommended',
   ],
