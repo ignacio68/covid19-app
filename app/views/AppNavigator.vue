@@ -4,15 +4,21 @@
     <BottomNavigation selectedIndex="0">
       <TabStrip>
         <TabStripItem>
-          <Label text="Maps" />
+          <Label
+            :text="$t('lang.views.main.tabbar_map')"
+          />
           <!-- <Image src="font://&#xf015;" class="fas"/> -->
         </TabStripItem>
         <TabStripItem>
-          <Label text="Charts" />
+          <Label
+            :text="$t('lang.views.main.tabbar_charts')"
+          />
           <!-- <Image src="font://&#xf015;" class="fas"/> -->
         </TabStripItem>
         <TabStripItem>
-          <Label text="Info" />
+          <Label
+            :text="$t('lang.views.main.tabbar_info')"
+          />
           <!-- <Image src="font://&#xf015;" class="fas"/> -->
         </TabStripItem>
       </TabStrip>
