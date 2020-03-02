@@ -1,5 +1,7 @@
 export default {
-  welcome: {
-    header: 'BIENVENIDO A COVID-19 APP'
+  main: {
+    tabbar_map: 'MAPA',
+    tabbar_charts: 'GRÁFICAS',
+    tabbar_info: 'INFO',
   }
 }
