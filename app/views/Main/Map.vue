@@ -13,7 +13,7 @@
 </template>
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-simport { mapboxToken } from '@/setup/Mapbox'
+import { mapboxToken } from '@/setup/Mapbox'
 import MapComponent from '@/components/Main/MapComponent.vue'
 
 @Component({
