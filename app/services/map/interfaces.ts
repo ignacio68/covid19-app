@@ -1,4 +1,4 @@
-interface IPopup {
+interface popup {
   country: string,
   confirmedTitle: string,
   confirmed: string
@@ -12,11 +12,13 @@ interface IPopup {
   totalDeaths: string
 }
 
-export interface IMarker {
+export interface marker {
+  id?: any,
   lat: string,
   lng: string,
-  icon: string,
-  selected: boolean,
-  popup: IPopup
+  title?: string,
+  icon?: string,
+  selected?: boolean,
+  popup?: popup
 }
 

@@ -1,12 +1,15 @@
 import { countriesList } from '@/repository'
-import { ICountry } from './interfaces'
+import { country } from './interfaces'
 
 export function getCountry(countryCode: string){
   const getCountryData = countriesList.filter(countryListed => countryListed.code === countryCode)
-  const countryData: ICountry = {
+  console.log(JSON.stringify(getCountryData))
+  const countryData: country = {
     // code: getCountryData["code"],
     // name: getCountryData["name"],
-    coordinates: [getCountryData["latitude"], getCountryData["longitude"]]
+    lat: getCountryData["latitude"],
+    lng: getCountryData["longitude"]
   }
+  console.log(JSON.stringify(countryData))
   return countryData
 }

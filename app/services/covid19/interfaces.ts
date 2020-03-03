@@ -1,4 +1,4 @@
-export interface ICovid19Data {
+export interface covid19Data {
   confirmed: number,
   suspected: number,
   deaths: number,
