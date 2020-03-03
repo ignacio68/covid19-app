@@ -14,3 +14,18 @@ export const countriesList = {
     }
   }
 }
+
+export const geojson = {
+  type: "",
+  features: {
+    type: "",
+    geometry: {
+      type: "",
+      coordinates: []
+    },
+    properties: {
+      title: "",
+      description: ""
+    }
+  }
+}
