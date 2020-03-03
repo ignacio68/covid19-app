@@ -1,7 +1,8 @@
 export interface covid19Data {
-  confirmed: number,
-  suspected: number,
-  deaths: number,
-  totalConfirmed: number,
-  totalDeaths: number,
+  confirmed?: string | number
+  suspected?: string | number
+  deaths?: string | number
+  totalConfirmed?: string | number
+  totalDeaths?: string | number
+  subtitle?: string | any
 }
