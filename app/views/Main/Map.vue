@@ -31,19 +31,19 @@ export default class Map extends Vue {
     console.log('Estoy en showMarkers')
     console.log(console.dir(args))
     const markers = getMarkers()
-    // args.map.addMarkers([
-    //   markers
-    // ])
     args.map.addMarkers([
-      {
-        lat: 39.87299401,
-        lng: -3.67089492
-      },
-      {
-        lat: 46.48372145,
-        lng: 2.60926281
-      }
+      markers
     ])
+    // args.map.addMarkers([
+    //   {
+    //     lat: 39.87299401,
+    //     lng: -3.67089492
+    //   },
+    //   {
+    //     lat: 46.48372145,
+    //     lng: 2.60926281
+    //   }
+    // ])
   }
 }
 </script>
