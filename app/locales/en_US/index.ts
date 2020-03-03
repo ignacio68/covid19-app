@@ -1,7 +1,7 @@
 import views from './views'
 import countriesName from './countriesName'
 
-export default {
+export const enUs = {
   views,
   countriesName
 }
