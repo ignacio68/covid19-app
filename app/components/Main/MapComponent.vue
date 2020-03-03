@@ -26,7 +26,7 @@ import
 export default class MapComponent extends Vue {
 
   @Prop(String) readonly accessToken!: string | undefined
-  @Prop({default: 5}) readonly zoomLevel!: number | string
+  @Prop({default: 5}) readonly zoomLevel!: number
   @Prop({default: "45.137451890638886"}) readonly userLatitude!: string
   @Prop({default: "-68.13734351262877"}) readonly userLongitude!: string
 
