@@ -1,8 +1,9 @@
 export interface country {
-  code?: string,
-  name?: string
-  lat: string,
-  lng: string,
+  id?: string,
+  lat?: string,
+  lng?: string,
   zoom?: number
   continent?: string
+  title?: string
+  onTap?: Function
 }
