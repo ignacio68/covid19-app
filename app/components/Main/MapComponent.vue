@@ -35,12 +35,10 @@ export default class MapComponent extends Vue {
     this.$emit('onMapReady', e)
     // console.log(e)
   }
-}
-
 //   @Emit()
 //   onMapReady(e){
 //     console.log('MAP READY!!!')
 //     return e.target.value
 //   }
-// }
+}
 </script>

@@ -5,9 +5,9 @@ import { IMarker } from './interfaces'
 
 function setMarker(countryCode: string){
   const countryData = getCountry(countryCode)
-  const covid19CountryData = getCovid19CountryData(countryCode)
-  // countryData = countryData.concat(covid19CountryData)
-  const marker = { ...countryData, ...covid19CountryData }
+  // const covid19CountryData = getCovid19CountryData(countryCode)
+  // const marker = { ...countryData, ...covid19CountryData }
+  const marker = countryData
   return marker
 }
 
