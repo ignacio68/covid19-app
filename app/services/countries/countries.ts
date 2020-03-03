@@ -2,7 +2,7 @@ import { countriesList } from '@/repository'
 import { country } from './interfaces'
 
 export function getCountry(countryCode: string) {
-  const filterCountry= countriesList.filter(countryListed => countryListed.code === countryCode)
+  const filterCountry= countriesList.filter(country => country.code === countryCode)
   // console.log(`filterCountry: ${JSON.stringify(filterCountry)}`)
   const countryData: country = {}
   countryData.lat = filterCountry[0].latitude,
