@@ -1,64 +1,41 @@
 export const countriesList = [
   {
-      "id": 1,
-      "enabled": true,
-      "code3l": "AFG",
-      "code2l": "AF",
+     "code": "AF",
       "name": "Afghanistan",
-      "name_official": "Islamic Republic of Afghanistan",
       "latitude": "33.98299275",
       "longitude": "66.39159363",
       "zoom": 6
   },
   {
-      "id": 199,
-      "enabled": true,
-      "code3l": "ALA",
-      "code2l": "AX",
+     "code": "AX",
       "name": "Åland Islands",
-      "name_official": "Åland Islands",
       "latitude": "60.25403213",
       "longitude": "20.35918350",
       "zoom": 9
   },
   {
-      "id": 2,
-      "enabled": true,
-      "code3l": "ALB",
-      "code2l": "AL",
+     "code": "AL",
       "name": "Albania",
-      "name_official": "Republic of Albania",
       "latitude": "41.00017358",
       "longitude": "19.87170014",
       "zoom": 7
   },
   {
-      "id": 3,
-      "enabled": true,
-      "code3l": "DZA",
-      "code2l": "DZ",
+     "code": "DZ",
       "name": "Algeria",
-      "name_official": "People's Democratic Republic of Algeria",
       "latitude": "27.89861690",
       "longitude": "3.19771194",
       "zoom": 5
   },
   {
-      "id": 197,
-      "enabled": true,
-      "code3l": "ASM",
-      "code2l": "AS",
+     "code": "AS",
       "name": "American Samoa",
-      "name_official": "The United States Territory of American Samoa",
-      "latitude": "-14.30634641",
+        "latitude": "-14.30634641",
       "longitude": "-170.69501750",
       "zoom": 11
   },
   {
-      "id": 4,
-      "enabled": true,
-      "code3l": "AND",
-      "code2l": "AD",
+     "code": "AD",
       "name": "Andorra",
       "name_official": "Principality of Andorra",
       "latitude": "42.54057088",
@@ -66,10 +43,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 5,
-      "enabled": true,
-      "code3l": "AGO",
-      "code2l": "AO",
+     "code": "AO",
       "name": "Angola",
       "name_official": "Republic of Angola",
       "latitude": "-12.16469683",
@@ -77,10 +51,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 195,
-      "enabled": true,
-      "code3l": "AIA",
-      "code2l": "AI",
+     "code": "AI",
       "name": "Anguilla",
       "name_official": "Anguilla",
       "latitude": "18.22053521",
@@ -88,10 +59,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 196,
-      "enabled": true,
-      "code3l": "ATA",
-      "code2l": "AQ",
+     "code": "AQ",
       "name": "Antarctica",
       "name_official": "Antarctica",
       "latitude": "-45.13806295",
@@ -99,10 +67,7 @@ export const countriesList = [
       "zoom": 2
   },
   {
-      "id": 6,
-      "enabled": true,
-      "code3l": "ATG",
-      "code2l": "AG",
+     "code": "AG",
       "name": "Antigua and Barbuda",
       "name_official": "Antigua and Barbuda",
       "latitude": "17.48060423",
@@ -110,10 +75,7 @@ export const countriesList = [
       "zoom": 9
   },
   {
-      "id": 7,
-      "enabled": true,
-      "code3l": "ARG",
-      "code2l": "AR",
+     "code": "AR",
       "name": "Argentina",
       "name_official": "Argentine Republic",
       "latitude": "-38.01529308",
@@ -121,10 +83,7 @@ export const countriesList = [
       "zoom": 4
   },
   {
-      "id": 8,
-      "enabled": true,
-      "code3l": "ARM",
-      "code2l": "AM",
+     "code": "AM",
       "name": "Armenia",
       "name_official": "Republic of Armenia",
       "latitude": "40.13475528",
@@ -132,10 +91,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 198,
-      "enabled": true,
-      "code3l": "ABW",
-      "code2l": "AW",
+     "code": "AW",
       "name": "Aruba",
       "name_official": "Aruba of the Kingdom of the Netherlands",
       "latitude": "12.52109661",
@@ -143,10 +99,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 9,
-      "enabled": true,
-      "code3l": "AUS",
-      "code2l": "AU",
+     "code": "AU",
       "name": "Australia",
       "name_official": "Australia",
       "latitude": "-26.29594646",
@@ -154,10 +107,7 @@ export const countriesList = [
       "zoom": 4
   },
   {
-      "id": 10,
-      "enabled": true,
-      "code3l": "AUT",
-      "code2l": "AT",
+      "code": "AT",
       "name": "Austria",
       "name_official": "Republic of Austria",
       "latitude": "47.63125476",
@@ -165,10 +115,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 11,
-      "enabled": true,
-      "code3l": "AZE",
-      "code2l": "AZ",
+      "code": "AZ",
       "name": "Azerbaijan",
       "name_official": "Republic of Azerbaijan",
       "latitude": "40.35321757",
@@ -176,10 +123,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 12,
-      "enabled": true,
-      "code3l": "BHS",
-      "code2l": "BS",
+      "code": "BS",
       "name": "Bahamas",
       "name_official": "Commonwealth of the Bahamas",
       "latitude": "24.45991732",
@@ -187,10 +131,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 13,
-      "enabled": true,
-      "code3l": "BHR",
-      "code2l": "BH",
+      "code": "BH",
       "name": "Bahrain",
       "name_official": "Kingdom of Bahrain",
       "latitude": "25.90740996",
@@ -198,10 +139,7 @@ export const countriesList = [
       "zoom": 9
   },
   {
-      "id": 14,
-      "enabled": true,
-      "code3l": "BGD",
-      "code2l": "BD",
+      "code": "BD",
       "name": "Bangladesh",
       "name_official": "People's Republic of Bangladesh",
       "latitude": "24.08273251",
@@ -209,10 +147,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 15,
-      "enabled": true,
-      "code3l": "BRB",
-      "code2l": "BB",
+      "code": "BB",
       "name": "Barbados",
       "name_official": "Barbados",
       "latitude": "13.19383077",
@@ -220,10 +155,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 16,
-      "enabled": true,
-      "code3l": "BLR",
-      "code2l": "BY",
+      "code": "BY",
       "name": "Belarus",
       "name_official": "Republic of Belarus",
       "latitude": "53.58628747",
@@ -231,10 +163,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 17,
-      "enabled": true,
-      "code3l": "BEL",
-      "code2l": "BE",
+      "code": "BE",
       "name": "Belgium",
       "name_official": "Kingdom of Belgium",
       "latitude": "50.49593874",
@@ -242,10 +171,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 18,
-      "enabled": true,
-      "code3l": "BLZ",
-      "code2l": "BZ",
+      "code": "BZ",
       "name": "Belize",
       "name_official": "Belize",
       "latitude": "17.21153631",
@@ -253,10 +179,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 19,
-      "enabled": true,
-      "code3l": "BEN",
-      "code2l": "BJ",
+      "code": "BJ",
       "name": "Benin",
       "name_official": "Republic of Benin",
       "latitude": "9.37180859",
@@ -264,10 +187,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 201,
-      "enabled": true,
-      "code3l": "BMU",
-      "code2l": "BM",
+     "code": "BM",
       "name": "Bermuda",
       "name_official": "Bermudas",
       "latitude": "32.31995785",
@@ -275,10 +195,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 20,
-      "enabled": true,
-      "code3l": "BTN",
-      "code2l": "BT",
+      "code": "BT",
       "name": "Bhutan",
       "name_official": "Kingdom of Bhutan",
       "latitude": "27.50752756",
@@ -286,10 +203,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 182,
-      "enabled": true,
-      "code3l": "BOL",
-      "code2l": "BO",
+     "code": "BO",
       "name": "Bolivia (Plurinational State of)",
       "name_official": "Plurinational State of Bolivia",
       "latitude": "-16.74518128",
@@ -297,10 +211,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 202,
-      "enabled": true,
-      "code3l": "BES",
-      "code2l": "BQ",
+     "code": "BQ",
       "name": "Bonaire, Saint Eustatius And Saba",
       "name_official": "Bonaire, Saint Eustatius and Saba",
       "latitude": "12.17229702",
@@ -308,10 +219,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 21,
-      "enabled": true,
-      "code3l": "BIH",
-      "code2l": "BA",
+      "code": "BA",
       "name": "Bosnia and Herzegovina",
       "name_official": "Bosnia and Herzegovina",
       "latitude": "44.00040856",
@@ -319,10 +227,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 22,
-      "enabled": true,
-      "code3l": "BWA",
-      "code2l": "BW",
+      "code": "BW",
       "name": "Botswana",
       "name_official": "Republic of Botswana",
       "latitude": "-22.18279485",
@@ -330,10 +235,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 203,
-      "enabled": true,
-      "code3l": "BVT",
-      "code2l": "BV",
+     "code": "BV",
       "name": "Bouvet Island",
       "name_official": "Bouvet Island",
       "latitude": "-54.42316906",
@@ -341,10 +243,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 23,
-      "enabled": true,
-      "code3l": "BRA",
-      "code2l": "BR",
+      "code": "BR",
       "name": "Brazil",
       "name_official": "Federative Republic of Brazil",
       "latitude": "-11.80965046",
@@ -352,10 +251,7 @@ export const countriesList = [
       "zoom": 4
   },
   {
-      "id": 220,
-      "enabled": true,
-      "code3l": "IOT",
-      "code2l": "IO",
+     "code": "IO",
       "name": "British Indian Ocean Territory",
       "name_official": "The British Indian Ocean Territory",
       "latitude": "-7.33461519",
@@ -363,10 +259,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 24,
-      "enabled": true,
-      "code3l": "BRN",
-      "code2l": "BN",
+      "code": "BN",
       "name": "Brunei Darussalam",
       "name_official": "Brunei Darussalam",
       "latitude": "4.54189364",
@@ -374,10 +267,7 @@ export const countriesList = [
       "zoom": 9
   },
   {
-      "id": 25,
-      "enabled": true,
-      "code3l": "BGR",
-      "code2l": "BG",
+      "code": "BG",
       "name": "Bulgaria",
       "name_official": "Republic of Bulgaria",
       "latitude": "42.70160678",
@@ -385,10 +275,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 26,
-      "enabled": true,
-      "code3l": "BFA",
-      "code2l": "BF",
+      "code": "BF",
       "name": "Burkina Faso",
       "name_official": "Burkina Faso",
       "latitude": "12.22492458",
@@ -396,10 +283,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 27,
-      "enabled": true,
-      "code3l": "BDI",
-      "code2l": "BI",
+      "code": "BI",
       "name": "Burundi",
       "name_official": "Republic of Burundi",
       "latitude": "-3.40499707",
@@ -407,10 +291,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 31,
-      "enabled": true,
-      "code3l": "CPV",
-      "code2l": "CV",
+      "code": "CV",
       "name": "Cabo Verde",
       "name_official": "Republic of Cabo Verde",
       "latitude": "15.11988711",
@@ -418,10 +299,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 28,
-      "enabled": true,
-      "code3l": "KHM",
-      "code2l": "KH",
+      "code": "KH",
       "name": "Cambodia",
       "name_official": "Kingdom of Cambodia",
       "latitude": "12.83288883",
@@ -429,10 +307,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 29,
-      "enabled": true,
-      "code3l": "CMR",
-      "code2l": "CM",
+      "code": "CM",
       "name": "Cameroon",
       "name_official": "Republic of Cameroon",
       "latitude": "7.38622543",
@@ -440,10 +315,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 30,
-      "enabled": true,
-      "code3l": "CAN",
-      "code2l": "CA",
+      "code": "CA",
       "name": "Canada",
       "name_official": "Canada",
       "latitude": "60.36196817",
@@ -451,10 +323,7 @@ export const countriesList = [
       "zoom": 4
   },
   {
-      "id": 222,
-      "enabled": true,
-      "code3l": "CYM",
-      "code2l": "KY",
+     "code": "KY",
       "name": "Cayman Islands",
       "name_official": "The Cayman Islands",
       "latitude": "19.31322102",
@@ -462,10 +331,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 32,
-      "enabled": true,
-      "code3l": "CAF",
-      "code2l": "CF",
+      "code": "CF",
       "name": "Central African Republic",
       "name_official": "Central African Republic",
       "latitude": "6.82541830",
@@ -473,10 +339,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 33,
-      "enabled": true,
-      "code3l": "TCD",
-      "code2l": "TD",
+      "code": "TD",
       "name": "Chad",
       "name_official": "Republic of Chad",
       "latitude": "14.80342407",
@@ -484,10 +347,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 34,
-      "enabled": true,
-      "code3l": "CHL",
-      "code2l": "CL",
+      "code": "CL",
       "name": "Chile",
       "name_official": "Republic of Chile",
       "latitude": "-38.01760790",
@@ -495,10 +355,7 @@ export const countriesList = [
       "zoom": 4
   },
   {
-      "id": 35,
-      "enabled": true,
-      "code3l": "CHN",
-      "code2l": "CN",
+      "code": "CN",
       "name": "China",
       "name_official": "People's Republic of China",
       "latitude": "36.71457440",
@@ -506,10 +363,7 @@ export const countriesList = [
       "zoom": 4
   },
   {
-      "id": 206,
-      "enabled": true,
-      "code3l": "CXR",
-      "code2l": "CX",
+     "code": "CX",
       "name": "Christmas Island",
       "name_official": "Territory of Christmas Island",
       "latitude": "-10.49170619",
@@ -517,10 +371,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 204,
-      "enabled": true,
-      "code3l": "CCK",
-      "code2l": "CC",
+     "code": "CC",
       "name": "Cocos (Keeling) Islands",
       "name_official": "Territory of Cocos (Keeling) Islands",
       "latitude": "-12.12890685",
@@ -528,10 +379,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 36,
-      "enabled": true,
-      "code3l": "COL",
-      "code2l": "CO",
+      "code": "CO",
       "name": "Colombia",
       "name_official": "Republic of Colombia",
       "latitude": "3.68182320",
@@ -539,10 +387,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 37,
-      "enabled": true,
-      "code3l": "COM",
-      "code2l": "KM",
+      "code": "KM",
       "name": "Comoros",
       "name_official": "Union of the Comoros",
       "latitude": "-11.64529989",
@@ -550,10 +395,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 38,
-      "enabled": true,
-      "code3l": "COG",
-      "code2l": "CG",
+      "code": "CG",
       "name": "Congo",
       "name_official": "Republic of the Congo",
       "latitude": "-0.68967806",
@@ -561,10 +403,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 181,
-      "enabled": true,
-      "code3l": "COK",
-      "code2l": "CK",
+     "code": "CK",
       "name": "Cook Islands",
       "name_official": "Cook Islands",
       "latitude": "-21.23673066",
@@ -572,10 +411,7 @@ export const countriesList = [
       "zoom": 13
   },
   {
-      "id": 39,
-      "enabled": true,
-      "code3l": "CRI",
-      "code2l": "CR",
+      "code": "CR",
       "name": "Costa Rica",
       "name_official": "Republic of Costa Rica",
       "latitude": "9.98427463",
@@ -583,10 +419,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 44,
-      "enabled": true,
-      "code3l": "CIV",
-      "code2l": "CI",
+      "code": "CI",
       "name": "C\u00f4te d'Ivoire",
       "name_official": "Republic of C\u00f4te d'Ivoire",
       "latitude": "7.59684148",
@@ -594,10 +427,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 40,
-      "enabled": true,
-      "code3l": "HRV",
-      "code2l": "HR",
+      "code": "HR",
       "name": "Croatia",
       "name_official": "Republic of Croatia",
       "latitude": "44.81372482",
@@ -605,10 +435,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 41,
-      "enabled": true,
-      "code3l": "CUB",
-      "code2l": "CU",
+      "code": "CU",
       "name": "Cuba",
       "name_official": "Republic of Cuba",
       "latitude": "21.54513189",
@@ -616,10 +443,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 205,
-      "enabled": true,
-      "code3l": "CUW",
-      "code2l": "CW",
+     "code": "CW",
       "name": "Cura\u00e7ao",
       "name_official": "Cura\u00e7ao",
       "latitude": "12.20710309",
@@ -627,10 +451,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 42,
-      "enabled": true,
-      "code3l": "CYP",
-      "code2l": "CY",
+      "code": "CY",
       "name": "Cyprus",
       "name_official": "Republic of Cyprus",
       "latitude": "35.12450768",
@@ -638,10 +459,7 @@ export const countriesList = [
       "zoom": 9
   },
   {
-      "id": 43,
-      "enabled": true,
-      "code3l": "CZE",
-      "code2l": "CZ",
+      "code": "CZ",
       "name": "Czechia",
       "name_official": "Czech Republic",
       "latitude": "49.76026136",
@@ -649,10 +467,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 188,
-      "enabled": true,
-      "code3l": "PRK",
-      "code2l": "KP",
+     "code": "KP",
       "name": "Democratic People's Republic of Korea",
       "name_official": "Democratic People's Republic of Korea",
       "latitude": "40.00785500",
@@ -660,10 +475,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 183,
-      "enabled": true,
-      "code3l": "COD",
-      "code2l": "CD",
+     "code": "CD",
       "name": "Democratic Republic of the Congo",
       "name_official": "Democratic Republic of Congo",
       "latitude": "-4.05373938",
@@ -671,10 +483,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 45,
-      "enabled": true,
-      "code3l": "DNK",
-      "code2l": "DK",
+      "code": "DK",
       "name": "Denmark",
       "name_official": "Kingdom of Denmark",
       "latitude": "54.71794021",
@@ -682,10 +491,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 46,
-      "enabled": true,
-      "code3l": "DJI",
-      "code2l": "DJ",
+      "code": "DJ",
       "name": "Djibouti",
       "name_official": "Republic of Djibouti",
       "latitude": "11.75959257",
@@ -693,10 +499,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 47,
-      "enabled": true,
-      "code3l": "DMA",
-      "code2l": "DM",
+      "code": "DM",
       "name": "Dominica",
       "name_official": "Commonwealth of Dominica",
       "latitude": "15.41473963",
@@ -704,10 +507,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 48,
-      "enabled": true,
-      "code3l": "DOM",
-      "code2l": "DO",
+      "code": "DO",
       "name": "Dominican Republic",
       "name_official": "Dominican Republic",
       "latitude": "18.73076761",
@@ -715,10 +515,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 49,
-      "enabled": true,
-      "code3l": "ECU",
-      "code2l": "EC",
+      "code": "EC",
       "name": "Ecuador",
       "name_official": "Republic of Ecuador",
       "latitude": "-1.22919037",
@@ -726,10 +523,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 50,
-      "enabled": true,
-      "code3l": "EGY",
-      "code2l": "EG",
+      "code": "EG",
       "name": "Egypt",
       "name_official": "Arab Republic of Egypt",
       "latitude": "26.71650873",
@@ -737,10 +531,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 51,
-      "enabled": true,
-      "code3l": "SLV",
-      "code2l": "SV",
+      "code": "SV",
       "name": "El Salvador",
       "name_official": "Republic of El Salvador",
       "latitude": "13.79043561",
@@ -748,10 +539,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 52,
-      "enabled": true,
-      "code3l": "GNQ",
-      "code2l": "GQ",
+      "code": "GQ",
       "name": "Equatorial Guinea",
       "name_official": "Republic of Equatorial Guinea",
       "latitude": "1.65068442",
@@ -759,10 +547,7 @@ export const countriesList = [
       "zoom": 9
   },
   {
-      "id": 53,
-      "enabled": true,
-      "code3l": "ERI",
-      "code2l": "ER",
+      "code": "ER",
       "name": "Eritrea",
       "name_official": "State of Eritrea",
       "latitude": "15.21227764",
@@ -770,10 +555,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 54,
-      "enabled": true,
-      "code3l": "EST",
-      "code2l": "EE",
+      "code": "EE",
       "name": "Estonia",
       "name_official": "Republic of Estonia",
       "latitude": "58.74041141",
@@ -781,10 +563,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 55,
-      "enabled": true,
-      "code3l": "ETH",
-      "code2l": "ET",
+      "code": "ET",
       "name": "Ethiopia",
       "name_official": "Federal Democratic Republic of Ethiopia",
       "latitude": "9.10727589",
@@ -792,10 +571,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 184,
-      "enabled": true,
-      "code3l": "EUR",
-      "code2l": "EU",
+     "code": "EU",
       "name": "European Union",
       "name_official": "European Union",
       "latitude": "48.76380654",
@@ -803,10 +579,7 @@ export const countriesList = [
       "zoom": 3
   },
   {
-      "id": 208,
-      "enabled": true,
-      "code3l": "FLK",
-      "code2l": "FK",
+     "code": "FK",
       "name": "Falkland Islands (Malvinas)",
       "name_official": "Falkland Islands",
       "latitude": "-51.78838251",
@@ -814,10 +587,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 209,
-      "enabled": true,
-      "code3l": "FRO",
-      "code2l": "FO",
+     "code": "FO",
       "name": "Faroe Islands (Associate Member)",
       "name_official": "Faroe Islands",
       "latitude": "61.88590482",
@@ -825,10 +595,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 56,
-      "enabled": true,
-      "code3l": "FJI",
-      "code2l": "FJ",
+      "code": "FJ",
       "name": "Fiji",
       "name_official": "Republic of Fiji",
       "latitude": "-17.71219757",
@@ -836,10 +603,7 @@ export const countriesList = [
       "zoom": 9
   },
   {
-      "id": 57,
-      "enabled": true,
-      "code3l": "FIN",
-      "code2l": "FI",
+      "code": "FI",
       "name": "Finland",
       "name_official": "Republic of Finland",
       "latitude": "64.69610892",
@@ -847,10 +611,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 58,
-      "enabled": true,
-      "code3l": "FRA",
-      "code2l": "FR",
+      "code": "FR",
       "name": "France",
       "name_official": "French Republic",
       "latitude": "46.48372145",
@@ -858,10 +619,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 210,
-      "enabled": true,
-      "code3l": "GUF",
-      "code2l": "GF",
+     "code": "GF",
       "name": "French Guiana",
       "name_official": "French Guiana",
       "latitude": "4.01114381",
@@ -869,10 +627,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 230,
-      "enabled": true,
-      "code3l": "PYF",
-      "code2l": "PF",
+     "code": "PF",
       "name": "French Polynesia",
       "name_official": "Territory of French Polynesia",
       "latitude": "-17.66243898",
@@ -880,10 +635,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 240,
-      "enabled": true,
-      "code3l": "ATF",
-      "code2l": "TF",
+     "code": "TF",
       "name": "French Southern and Antarctic Lands",
       "name_official": "Territory of the French Southern and Antarctic Lands",
       "latitude": "-49.27235903",
@@ -891,10 +643,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 59,
-      "enabled": true,
-      "code3l": "GAB",
-      "code2l": "GA",
+      "code": "GA",
       "name": "Gabon",
       "name_official": "Gabonese Republic",
       "latitude": "-0.43426435",
@@ -902,10 +651,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 60,
-      "enabled": true,
-      "code3l": "GMB",
-      "code2l": "GM",
+      "code": "GM",
       "name": "Gambia",
       "name_official": "Islamic Republic of the Gambia",
       "latitude": "13.15921146",
@@ -913,10 +659,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 61,
-      "enabled": true,
-      "code3l": "GEO",
-      "code2l": "GE",
+      "code": "GE",
       "name": "Georgia",
       "name_official": "Georgia",
       "latitude": "41.82754301",
@@ -924,10 +667,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 62,
-      "enabled": true,
-      "code3l": "DEU",
-      "code2l": "DE",
+      "code": "DE",
       "name": "Germany",
       "name_official": "Federal Republic of Germany",
       "latitude": "50.82871201",
@@ -935,10 +675,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 63,
-      "enabled": true,
-      "code3l": "GHA",
-      "code2l": "GH",
+      "code": "GH",
       "name": "Ghana",
       "name_official": "Republic of Ghana",
       "latitude": "7.69154199",
@@ -946,10 +683,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 212,
-      "enabled": true,
-      "code3l": "GIB",
-      "code2l": "GI",
+     "code": "GI",
       "name": "Gibraltar",
       "name_official": "Gibraltar",
       "latitude": "36.14864641",
@@ -957,10 +691,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 64,
-      "enabled": true,
-      "code3l": "GRC",
-      "code2l": "GR",
+      "code": "GR",
       "name": "Greece",
       "name_official": "Hellenic Republic",
       "latitude": "38.52254746",
@@ -968,10 +699,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 213,
-      "enabled": true,
-      "code3l": "GRL",
-      "code2l": "GL",
+     "code": "GL",
       "name": "Greenland",
       "name_official": "Greenland",
       "latitude": "71.42932629",
@@ -979,10 +707,7 @@ export const countriesList = [
       "zoom": 3
   },
   {
-      "id": 65,
-      "enabled": true,
-      "code3l": "GRD",
-      "code2l": "GD",
+      "code": "GD",
       "name": "Grenada",
       "name_official": "Grenada",
       "latitude": "12.11644807",
@@ -990,10 +715,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 214,
-      "enabled": true,
-      "code3l": "GLP",
-      "code2l": "GP",
+     "code": "GP",
       "name": "Guadeloupe",
       "name_official": "Department of Guadeloupe",
       "latitude": "16.26472785",
@@ -1001,10 +723,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 216,
-      "enabled": true,
-      "code3l": "GUM",
-      "code2l": "GU",
+     "code": "GU",
       "name": "Guam",
       "name_official": "Territory of Guam",
       "latitude": "13.44410137",
@@ -1012,10 +731,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 66,
-      "enabled": true,
-      "code3l": "GTM",
-      "code2l": "GT",
+      "code": "GT",
       "name": "Guatemala",
       "name_official": "Republic of Guatemala",
       "latitude": "15.72598421",
@@ -1023,10 +739,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 211,
-      "enabled": true,
-      "code3l": "GGY",
-      "code2l": "GG",
+     "code": "GG",
       "name": "Guernsey",
       "name_official": "Bailiwick of Guernsey",
       "latitude": "49.46565975",
@@ -1034,10 +747,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 67,
-      "enabled": true,
-      "code3l": "GIN",
-      "code2l": "GN",
+      "code": "GN",
       "name": "Guinea",
       "name_official": "Republic of Guinea",
       "latitude": "9.94301472",
@@ -1045,10 +755,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 68,
-      "enabled": true,
-      "code3l": "GNB",
-      "code2l": "GW",
+      "code": "GW",
       "name": "Guinea-Bissau",
       "name_official": "Republic of Guinea-Bissau",
       "latitude": "11.80050682",
@@ -1056,10 +763,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 69,
-      "enabled": true,
-      "code3l": "GUY",
-      "code2l": "GY",
+      "code": "GY",
       "name": "Guyana",
       "name_official": "Republic of Guyana",
       "latitude": "4.47957059",
@@ -1067,10 +771,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 70,
-      "enabled": true,
-      "code3l": "HTI",
-      "code2l": "HT",
+      "code": "HT",
       "name": "Haiti",
       "name_official": "Republic of Haiti",
       "latitude": "19.07430861",
@@ -1078,10 +779,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 218,
-      "enabled": true,
-      "code3l": "HMD",
-      "code2l": "HM",
+     "code": "HM",
       "name": "Heard Island And McDonald Islands",
       "name_official": "Heard and McDonald Islands",
       "latitude": "-53.08168847",
@@ -1089,10 +787,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 245,
-      "enabled": true,
-      "code3l": "VAT",
-      "code2l": "VA",
+     "code": "VA",
       "name": "Holy See",
       "name_official": "Holy see",
       "latitude": "41.90377810",
@@ -1100,10 +795,7 @@ export const countriesList = [
       "zoom": 16
   },
   {
-      "id": 71,
-      "enabled": true,
-      "code3l": "HND",
-      "code2l": "HN",
+      "code": "HN",
       "name": "Honduras",
       "name_official": "Republic of Honduras",
       "latitude": "14.64994423",
@@ -1111,10 +803,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 217,
-      "enabled": true,
-      "code3l": "HKG",
-      "code2l": "HK",
+     "code": "HK",
       "name": "Hong Kong",
       "name_official": "Hong Kong Special Administrative Region of the People's Republic",
       "latitude": "22.33728531",
@@ -1122,10 +811,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 72,
-      "enabled": true,
-      "code3l": "HUN",
-      "code2l": "HU",
+      "code": "HU",
       "name": "Hungary",
       "name_official": "Hungary",
       "latitude": "46.97670384",
@@ -1133,10 +819,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 73,
-      "enabled": true,
-      "code3l": "ISL",
-      "code2l": "IS",
+      "code": "IS",
       "name": "Iceland",
       "name_official": "Republic of Iceland",
       "latitude": "64.99294495",
@@ -1144,10 +827,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 74,
-      "enabled": true,
-      "code3l": "IND",
-      "code2l": "IN",
+      "code": "IN",
       "name": "India",
       "name_official": "Republic of India",
       "latitude": "20.46549519",
@@ -1155,10 +835,7 @@ export const countriesList = [
       "zoom": 4
   },
   {
-      "id": 75,
-      "enabled": true,
-      "code3l": "IDN",
-      "code2l": "ID",
+      "code": "ID",
       "name": "Indonesia",
       "name_official": "Republic of Indonesia",
       "latitude": "-2.46229680",
@@ -1166,10 +843,7 @@ export const countriesList = [
       "zoom": 4
   },
   {
-      "id": 187,
-      "enabled": true,
-      "code3l": "IRN",
-      "code2l": "IR",
+     "code": "IR",
       "name": "Iran (Islamic Republic of)",
       "name_official": "Islamic Republic of Iran",
       "latitude": "31.40240324",
@@ -1177,10 +851,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 76,
-      "enabled": true,
-      "code3l": "IRQ",
-      "code2l": "IQ",
+      "code": "IQ",
       "name": "Iraq",
       "name_official": "Republic of Iraq",
       "latitude": "32.90170182",
@@ -1188,10 +859,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 77,
-      "enabled": true,
-      "code3l": "IRL",
-      "code2l": "IE",
+      "code": "IE",
       "name": "Ireland",
       "name_official": "Ireland",
       "latitude": "53.10101628",
@@ -1199,10 +867,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 219,
-      "enabled": true,
-      "code3l": "IMN",
-      "code2l": "IM",
+     "code": "IM",
       "name": "Isle of Man",
       "name_official": "The Isle of Man",
       "latitude": "54.23562697",
@@ -1210,10 +875,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 78,
-      "enabled": true,
-      "code3l": "ISR",
-      "code2l": "IL",
+      "code": "IL",
       "name": "Israel",
       "name_official": "State of Israel",
       "latitude": "30.85883075",
@@ -1221,10 +883,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 79,
-      "enabled": true,
-      "code3l": "ITA",
-      "code2l": "IT",
+      "code": "IT",
       "name": "Italy",
       "name_official": "Republic of Italy",
       "latitude": "41.77810840",
@@ -1232,10 +891,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 80,
-      "enabled": true,
-      "code3l": "JAM",
-      "code2l": "JM",
+      "code": "JM",
       "name": "Jamaica",
       "name_official": "Jamaica",
       "latitude": "18.10838487",
@@ -1243,10 +899,7 @@ export const countriesList = [
       "zoom": 9
   },
   {
-      "id": 81,
-      "enabled": true,
-      "code3l": "JPN",
-      "code2l": "JP",
+      "code": "JP",
       "name": "Japan",
       "name_official": "Japan",
       "latitude": "37.51848822",
@@ -1254,10 +907,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 221,
-      "enabled": true,
-      "code3l": "JEY",
-      "code2l": "JE",
+     "code": "JE",
       "name": "Jersey",
       "name_official": "Bailiwick of Jersey",
       "latitude": "49.21440771",
@@ -1265,10 +915,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 82,
-      "enabled": true,
-      "code3l": "JOR",
-      "code2l": "JO",
+      "code": "JO",
       "name": "Jordan",
       "name_official": "Hashemite Kingdom of Jordan",
       "latitude": "31.31616588",
@@ -1276,10 +923,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 83,
-      "enabled": true,
-      "code3l": "KAZ",
-      "code2l": "KZ",
+      "code": "KZ",
       "name": "Kazakhstan",
       "name_official": "Republic of Kazakhstan",
       "latitude": "45.38592596",
@@ -1287,10 +931,7 @@ export const countriesList = [
       "zoom": 4
   },
   {
-      "id": 84,
-      "enabled": true,
-      "code3l": "KEN",
-      "code2l": "KE",
+      "code": "KE",
       "name": "Kenya",
       "name_official": "Republic of Kenya",
       "latitude": "0.19582452",
@@ -1298,10 +939,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 85,
-      "enabled": true,
-      "code3l": "KIR",
-      "code2l": "KI",
+      "code": "KI",
       "name": "Kiribati",
       "name_official": "Republic of Kiribati",
       "latitude": "1.87085244",
@@ -1309,10 +947,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 86,
-      "enabled": true,
-      "code3l": "KWT",
-      "code2l": "KW",
+      "code": "KW",
       "name": "Kuwait",
       "name_official": "State of Kuwait",
       "latitude": "29.43253341",
@@ -1320,10 +955,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 87,
-      "enabled": true,
-      "code3l": "KGZ",
-      "code2l": "KG",
+      "code": "KG",
       "name": "Kyrgyzstan",
       "name_official": "Kyrgyz Republic",
       "latitude": "41.11509878",
@@ -1331,10 +963,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 88,
-      "enabled": true,
-      "code3l": "LAO",
-      "code2l": "LA",
+      "code": "LA",
       "name": "Lao People's Democratic Republic",
       "name_official": "Lao People's Democratic Republic",
       "latitude": "17.76075593",
@@ -1342,10 +971,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 89,
-      "enabled": true,
-      "code3l": "LVA",
-      "code2l": "LV",
+      "code": "LV",
       "name": "Latvia",
       "name_official": "Republic of Latvia",
       "latitude": "56.86697515",
@@ -1353,10 +979,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 90,
-      "enabled": true,
-      "code3l": "LBN",
-      "code2l": "LB",
+      "code": "LB",
       "name": "Lebanon",
       "name_official": "Lebanese Republic",
       "latitude": "34.08249284",
@@ -1364,10 +987,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 91,
-      "enabled": true,
-      "code3l": "LSO",
-      "code2l": "LS",
+      "code": "LS",
       "name": "Lesotho",
       "name_official": "Kingdom of Lesotho",
       "latitude": "-29.60303205",
@@ -1375,10 +995,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 92,
-      "enabled": true,
-      "code3l": "LBR",
-      "code2l": "LR",
+      "code": "LR",
       "name": "Liberia",
       "name_official": "Republic of Liberia",
       "latitude": "6.44154681",
@@ -1386,10 +1003,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 93,
-      "enabled": true,
-      "code3l": "LBY",
-      "code2l": "LY",
+      "code": "LY",
       "name": "Libya",
       "name_official": "Libya",
       "latitude": "27.06902914",
@@ -1397,10 +1011,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 94,
-      "enabled": true,
-      "code3l": "LIE",
-      "code2l": "LI",
+      "code": "LI",
       "name": "Liechtenstein",
       "name_official": "Principality of Liechtenstein",
       "latitude": "47.16587383",
@@ -1408,10 +1019,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 95,
-      "enabled": true,
-      "code3l": "LTU",
-      "code2l": "LT",
+      "code": "LT",
       "name": "Lithuania",
       "name_official": "Republic of Lithuania",
       "latitude": "55.25095948",
@@ -1419,10 +1027,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 96,
-      "enabled": true,
-      "code3l": "LUX",
-      "code2l": "LU",
+      "code": "LU",
       "name": "Luxembourg",
       "name_official": "Grand Duchy of Luxembourg",
       "latitude": "49.81327712",
@@ -1430,10 +1035,7 @@ export const countriesList = [
       "zoom": 9
   },
   {
-      "id": 224,
-      "enabled": true,
-      "code3l": "MAC",
-      "code2l": "MO",
+     "code": "MO",
       "name": "Macao",
       "name_official": "Macau Special Administrative Region",
       "latitude": "22.19872287",
@@ -1441,10 +1043,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 97,
-      "enabled": true,
-      "code3l": "MDG",
-      "code2l": "MG",
+      "code": "MG",
       "name": "Madagascar",
       "name_official": "Republic of Madagascar",
       "latitude": "-19.79858543",
@@ -1452,10 +1051,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 98,
-      "enabled": true,
-      "code3l": "MWI",
-      "code2l": "MW",
+      "code": "MW",
       "name": "Malawi",
       "name_official": "Republic of Malawi",
       "latitude": "-12.48684092",
@@ -1463,10 +1059,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 99,
-      "enabled": true,
-      "code3l": "MYS",
-      "code2l": "MY",
+      "code": "MY",
       "name": "Malaysia",
       "name_official": "Malaysia",
       "latitude": "4.97345793",
@@ -1474,10 +1067,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 100,
-      "enabled": true,
-      "code3l": "MDV",
-      "code2l": "MV",
+     "code": "MV",
       "name": "Maldives",
       "name_official": "Republic of Maldives",
       "latitude": "-0.64224221",
@@ -1485,10 +1075,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 101,
-      "enabled": true,
-      "code3l": "MLI",
-      "code2l": "ML",
+     "code": "ML",
       "name": "Mali",
       "name_official": "Republic of Mali",
       "latitude": "17.69385811",
@@ -1496,10 +1083,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 102,
-      "enabled": true,
-      "code3l": "MLT",
-      "code2l": "MT",
+     "code": "MT",
       "name": "Malta",
       "name_official": "Republic of Malta",
       "latitude": "35.89706403",
@@ -1507,10 +1091,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 103,
-      "enabled": true,
-      "code3l": "MHL",
-      "code2l": "MH",
+     "code": "MH",
       "name": "Marshall Islands",
       "name_official": "Republic of the Marshall Islands",
       "latitude": "7.30130732",
@@ -1518,10 +1099,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 226,
-      "enabled": true,
-      "code3l": "MTQ",
-      "code2l": "MQ",
+     "code": "MQ",
       "name": "Martinique",
       "name_official": "Department of Martinique",
       "latitude": "14.64128045",
@@ -1529,10 +1107,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 104,
-      "enabled": true,
-      "code3l": "MRT",
-      "code2l": "MR",
+     "code": "MR",
       "name": "Mauritania",
       "name_official": "Islamic Republic of Mauritania",
       "latitude": "20.28331239",
@@ -1540,10 +1115,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 105,
-      "enabled": true,
-      "code3l": "MUS",
-      "code2l": "MU",
+     "code": "MU",
       "name": "Mauritius",
       "name_official": "Republic of Mauritius",
       "latitude": "-20.28368188",
@@ -1551,10 +1123,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 249,
-      "enabled": true,
-      "code3l": "MYT",
-      "code2l": "YT",
+     "code": "YT",
       "name": "Mayotte",
       "name_official": "Overseas Department of Mayotte",
       "latitude": "-12.82744522",
@@ -1562,10 +1131,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 106,
-      "enabled": true,
-      "code3l": "MEX",
-      "code2l": "MX",
+     "code": "MX",
       "name": "Mexico",
       "name_official": "United Mexican States",
       "latitude": "22.92036676",
@@ -1573,10 +1139,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 185,
-      "enabled": true,
-      "code3l": "FSM",
-      "code2l": "FM",
+     "code": "FM",
       "name": "Micronesia (Federated States of)",
       "name_official": "Federated States of Micronesia",
       "latitude": "6.88747377",
@@ -1584,10 +1147,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 107,
-      "enabled": true,
-      "code3l": "MCO",
-      "code2l": "MC",
+     "code": "MC",
       "name": "Monaco",
       "name_official": "Principality of Monaco",
       "latitude": "43.70463620",
@@ -1595,10 +1155,7 @@ export const countriesList = [
       "zoom": 9
   },
   {
-      "id": 108,
-      "enabled": true,
-      "code3l": "MNG",
-      "code2l": "MN",
+     "code": "MN",
       "name": "Mongolia",
       "name_official": "Mongolia",
       "latitude": "46.80556270",
@@ -1606,10 +1163,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 109,
-      "enabled": true,
-      "code3l": "MNE",
-      "code2l": "ME",
+     "code": "ME",
       "name": "Montenegro",
       "name_official": "Montenegro",
       "latitude": "42.71699590",
@@ -1617,10 +1171,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 227,
-      "enabled": true,
-      "code3l": "MSR",
-      "code2l": "MS",
+     "code": "MS",
       "name": "Montserrat",
       "name_official": "Montserrat",
       "latitude": "16.74774077",
@@ -1628,10 +1179,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 110,
-      "enabled": true,
-      "code3l": "MAR",
-      "code2l": "MA",
+     "code": "MA",
       "name": "Morocco",
       "name_official": "Kingdom of Morocco",
       "latitude": "31.95441758",
@@ -1639,10 +1187,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 111,
-      "enabled": true,
-      "code3l": "MOZ",
-      "code2l": "MZ",
+     "code": "MZ",
       "name": "Mozambique",
       "name_official": "Republic of Mozambique",
       "latitude": "-19.07617816",
@@ -1650,10 +1195,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 112,
-      "enabled": true,
-      "code3l": "MMR",
-      "code2l": "MM",
+     "code": "MM",
       "name": "Myanmar",
       "name_official": "Republic of Union of Myanmar",
       "latitude": "19.20985380",
@@ -1661,10 +1203,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 113,
-      "enabled": true,
-      "code3l": "NAM",
-      "code2l": "NA",
+     "code": "NA",
       "name": "Namibia",
       "name_official": "Republic of Namibia",
       "latitude": "-22.70965620",
@@ -1672,10 +1211,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 114,
-      "enabled": true,
-      "code3l": "NRU",
-      "code2l": "NR",
+     "code": "NR",
       "name": "Nauru",
       "name_official": "Republic of Nauru",
       "latitude": "-0.52586763",
@@ -1683,10 +1219,7 @@ export const countriesList = [
       "zoom": 13
   },
   {
-      "id": 115,
-      "enabled": true,
-      "code3l": "NPL",
-      "code2l": "NP",
+     "code": "NP",
       "name": "Nepal",
       "name_official": "Federal Democratic Republic of Nepal",
       "latitude": "28.28430770",
@@ -1694,10 +1227,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 116,
-      "enabled": true,
-      "code3l": "NLD",
-      "code2l": "NL",
+     "code": "NL",
       "name": "Netherlands",
       "name_official": "Kingdom of Netherlands",
       "latitude": "52.33939951",
@@ -1705,10 +1235,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 228,
-      "enabled": true,
-      "code3l": "NCL",
-      "code2l": "NC",
+     "code": "NC",
       "name": "New Caledonia",
       "name_official": "Territory of New Caledonia and Dependencies",
       "latitude": "-21.26104020",
@@ -1716,10 +1243,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 117,
-      "enabled": true,
-      "code3l": "NZL",
-      "code2l": "NZ",
+     "code": "NZ",
       "name": "New Zealand",
       "name_official": "New Zealand",
       "latitude": "-40.95025298",
@@ -1727,10 +1251,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 118,
-      "enabled": true,
-      "code3l": "NIC",
-      "code2l": "NI",
+     "code": "NI",
       "name": "Nicaragua",
       "name_official": "Republic of Nicaragua",
       "latitude": "12.91806226",
@@ -1738,10 +1259,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 119,
-      "enabled": true,
-      "code3l": "NER",
-      "code2l": "NE",
+     "code": "NE",
       "name": "Niger",
       "name_official": "Republic of Niger",
       "latitude": "17.23446679",
@@ -1749,10 +1267,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 120,
-      "enabled": true,
-      "code3l": "NGA",
-      "code2l": "NG",
+     "code": "NG",
       "name": "Nigeria",
       "name_official": "Federal Republic of Nigeria",
       "latitude": "9.02165273",
@@ -1760,10 +1275,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 192,
-      "enabled": true,
-      "code3l": "NIU",
-      "code2l": "NU",
+     "code": "NU",
       "name": "Niue",
       "name_official": "Niue",
       "latitude": "-19.04976362",
@@ -1771,10 +1283,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 229,
-      "enabled": true,
-      "code3l": "NFK",
-      "code2l": "NF",
+     "code": "NF",
       "name": "Norfolk Island",
       "name_official": "Norfolk Islands",
       "latitude": "-29.02801043",
@@ -1782,10 +1291,7 @@ export const countriesList = [
       "zoom": 13
   },
   {
-      "id": 225,
-      "enabled": true,
-      "code3l": "MNP",
-      "code2l": "MP",
+     "code": "MP",
       "name": "Northern Mariana Islands",
       "name_official": "Commonwealth of the Northern Mariana Islands",
       "latitude": "15.09783636",
@@ -1793,10 +1299,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 121,
-      "enabled": true,
-      "code3l": "NOR",
-      "code2l": "NO",
+     "code": "NO",
       "name": "Norway",
       "name_official": "Kingdom of Norway",
       "latitude": "65.04680297",
@@ -1804,10 +1307,7 @@ export const countriesList = [
       "zoom": 4
   },
   {
-      "id": 122,
-      "enabled": true,
-      "code3l": "OMN",
-      "code2l": "OM",
+     "code": "OM",
       "name": "Oman",
       "name_official": "Sultanate of Oman",
       "latitude": "20.69906846",
@@ -1815,10 +1315,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 123,
-      "enabled": true,
-      "code3l": "PAK",
-      "code2l": "PK",
+     "code": "PK",
       "name": "Pakistan",
       "name_official": "Islamic Republic of Pakistan",
       "latitude": "29.90335974",
@@ -1826,10 +1323,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 124,
-      "enabled": true,
-      "code3l": "PLW",
-      "code2l": "PW",
+     "code": "PW",
       "name": "Palau",
       "name_official": "Republic of Palau",
       "latitude": "7.49856307",
@@ -1837,10 +1331,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 234,
-      "enabled": true,
-      "code3l": "PSE",
-      "code2l": "PS",
+     "code": "PS",
       "name": "Palestinian Territory, Occupied",
       "name_official": "Occupied Palestinian Territory",
       "latitude": "32.26367103",
@@ -1848,10 +1339,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 125,
-      "enabled": true,
-      "code3l": "PAN",
-      "code2l": "PA",
+     "code": "PA",
       "name": "Panama",
       "name_official": "Republic of Panama",
       "latitude": "8.52135102",
@@ -1859,10 +1347,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 126,
-      "enabled": true,
-      "code3l": "PNG",
-      "code2l": "PG",
+     "code": "PG",
       "name": "Papua New Guinea",
       "name_official": "Independent State of Papua New Guinea",
       "latitude": "-6.62414046",
@@ -1870,10 +1355,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 127,
-      "enabled": true,
-      "code3l": "PRY",
-      "code2l": "PY",
+     "code": "PY",
       "name": "Paraguay",
       "name_official": "Republic of Paraguay",
       "latitude": "-23.38564782",
@@ -1881,10 +1363,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 128,
-      "enabled": true,
-      "code3l": "PER",
-      "code2l": "PE",
+     "code": "PE",
       "name": "Peru",
       "name_official": "Republic of Peru",
       "latitude": "-8.50205247",
@@ -1892,10 +1371,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 129,
-      "enabled": true,
-      "code3l": "PHL",
-      "code2l": "PH",
+     "code": "PH",
       "name": "Philippines",
       "name_official": "Republic of Philippines",
       "latitude": "12.82361200",
@@ -1903,10 +1379,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 232,
-      "enabled": true,
-      "code3l": "PCN",
-      "code2l": "PN",
+     "code": "PN",
       "name": "Pitcairn Islands",
       "name_official": "Pitcairn Group of Islands",
       "latitude": "-24.37673925",
@@ -1914,10 +1387,7 @@ export const countriesList = [
       "zoom": 13
   },
   {
-      "id": 130,
-      "enabled": true,
-      "code3l": "POL",
-      "code2l": "PL",
+     "code": "PL",
       "name": "Poland",
       "name_official": "Republic of Poland",
       "latitude": "52.10117636",
@@ -1925,10 +1395,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 131,
-      "enabled": true,
-      "code3l": "PRT",
-      "code2l": "PT",
+     "code": "PT",
       "name": "Portugal",
       "name_official": "Portuguese Republic",
       "latitude": "39.44879136",
@@ -1936,10 +1403,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 233,
-      "enabled": true,
-      "code3l": "PRI",
-      "code2l": "PR",
+     "code": "PR",
       "name": "Puerto Rico",
       "name_official": "Commonwealth of Puerto Rico",
       "latitude": "18.21963053",
@@ -1947,10 +1411,7 @@ export const countriesList = [
       "zoom": 9
   },
   {
-      "id": 132,
-      "enabled": true,
-      "code3l": "QAT",
-      "code2l": "QA",
+     "code": "QA",
       "name": "Qatar",
       "name_official": "State of Qatar",
       "latitude": "25.24551555",
@@ -1958,10 +1419,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 189,
-      "enabled": true,
-      "code3l": "KOR",
-      "code2l": "KR",
+     "code": "KR",
       "name": "Republic of Korea",
       "name_official": "Republic of Korea",
       "latitude": "36.56344139",
@@ -1969,10 +1427,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 190,
-      "enabled": true,
-      "code3l": "MDA",
-      "code2l": "MD",
+     "code": "MD",
       "name": "Republic of Moldova",
       "name_official": "Republic of Moldova",
       "latitude": "47.10710437",
@@ -1980,10 +1435,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 235,
-      "enabled": true,
-      "code3l": "REU",
-      "code2l": "RE",
+     "code": "RE",
       "name": "R\u00e9union",
       "name_official": "Department of Reunion",
       "latitude": "-21.11480084",
@@ -1991,10 +1443,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 133,
-      "enabled": true,
-      "code3l": "ROU",
-      "code2l": "RO",
+     "code": "RO",
       "name": "Romania",
       "name_official": "Romania",
       "latitude": "45.56450023",
@@ -2002,10 +1451,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 134,
-      "enabled": true,
-      "code3l": "RUS",
-      "code2l": "RU",
+     "code": "RU",
       "name": "Russian Federation",
       "name_official": "Russian Federation",
       "latitude": "57.96812298",
@@ -2013,10 +1459,7 @@ export const countriesList = [
       "zoom": 3
   },
   {
-      "id": 135,
-      "enabled": true,
-      "code3l": "RWA",
-      "code2l": "RW",
+     "code": "RW",
       "name": "Rwanda",
       "name_official": "Republic of Rwanda",
       "latitude": "-1.98589079",
@@ -2024,10 +1467,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 200,
-      "enabled": true,
-      "code3l": "BLM",
-      "code2l": "BL",
+     "code": "BL",
       "name": "Saint Barth\u00e9lemy",
       "name_official": "Territorial collectivity of Saint Barth\u00e9lemy",
       "latitude": "17.90042417",
@@ -2035,10 +1475,7 @@ export const countriesList = [
       "zoom": 13
   },
   {
-      "id": 236,
-      "enabled": true,
-      "code3l": "SHN",
-      "code2l": "SH",
+     "code": "SH",
       "name": "Saint Helena, Ascension and Tristan da Cunha",
       "name_official": "Saint Helena, Ascension and Tristan da Cunha",
       "latitude": "-37.10521846",
@@ -2046,10 +1483,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 136,
-      "enabled": true,
-      "code3l": "KNA",
-      "code2l": "KN",
+     "code": "KN",
       "name": "Saint Kitts and Nevis",
       "name_official": "Saint Kitts and Nevis",
       "latitude": "17.33453669",
@@ -2057,10 +1491,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 137,
-      "enabled": true,
-      "code3l": "LCA",
-      "code2l": "LC",
+     "code": "LC",
       "name": "Saint Lucia",
       "name_official": "Saint Lucia",
       "latitude": "13.90938495",
@@ -2068,10 +1499,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 223,
-      "enabled": true,
-      "code3l": "MAF",
-      "code2l": "MF",
+     "code": "MF",
       "name": "Saint Martin",
       "name_official": "Saint Martin",
       "latitude": "18.07637107",
@@ -2079,10 +1507,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 231,
-      "enabled": true,
-      "code3l": "SPM",
-      "code2l": "PM",
+     "code": "PM",
       "name": "Saint Pierre and Miquelon",
       "name_official": "Saint Pierre and Miquelon",
       "latitude": "46.88469499",
@@ -2090,10 +1515,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 138,
-      "enabled": true,
-      "code3l": "VCT",
-      "code2l": "VC",
+     "code": "VC",
       "name": "Saint Vincent and the Grenadines",
       "name_official": "Saint Vincent and the Grenadines",
       "latitude": "13.25276143",
@@ -2101,10 +1523,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 139,
-      "enabled": true,
-      "code3l": "WSM",
-      "code2l": "WS",
+     "code": "WS",
       "name": "Samoa",
       "name_official": "Independent State of Samoa",
       "latitude": "-13.57998954",
@@ -2112,10 +1531,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 140,
-      "enabled": true,
-      "code3l": "SMR",
-      "code2l": "SM",
+     "code": "SM",
       "name": "San Marino",
       "name_official": "Republic of San Marino",
       "latitude": "43.94223356",
@@ -2123,10 +1539,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 141,
-      "enabled": true,
-      "code3l": "STP",
-      "code2l": "ST",
+     "code": "ST",
       "name": "Sao Tome and Principe",
       "name_official": "Democratic Republic of Sao Tome and Principe",
       "latitude": "0.23381910",
@@ -2134,10 +1547,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 142,
-      "enabled": true,
-      "code3l": "SAU",
-      "code2l": "SA",
+     "code": "SA",
       "name": "Saudi Arabia",
       "name_official": "Kingdom of Saudi Arabia",
       "latitude": "24.16687314",
@@ -2145,10 +1555,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 143,
-      "enabled": true,
-      "code3l": "SEN",
-      "code2l": "SN",
+     "code": "SN",
       "name": "Senegal",
       "name_official": "Republic of Senegal",
       "latitude": "14.43579003",
@@ -2156,10 +1563,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 144,
-      "enabled": true,
-      "code3l": "SRB",
-      "code2l": "RS",
+     "code": "RS",
       "name": "Serbia",
       "name_official": "Republic of Serbia",
       "latitude": "44.06736041",
@@ -2167,10 +1571,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 145,
-      "enabled": true,
-      "code3l": "SYC",
-      "code2l": "SC",
+     "code": "SC",
       "name": "Seychelles",
       "name_official": "Republic of Seychelles",
       "latitude": "-4.68053204",
@@ -2178,10 +1579,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 146,
-      "enabled": true,
-      "code3l": "SLE",
-      "code2l": "SL",
+     "code": "SL",
       "name": "Sierra Leone",
       "name_official": "Republic of Sierra Leone",
       "latitude": "8.45575589",
@@ -2189,10 +1587,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 147,
-      "enabled": true,
-      "code3l": "SGP",
-      "code2l": "SG",
+     "code": "SG",
       "name": "Singapore",
       "name_official": "Republic of Singapore",
       "latitude": "1.33873261",
@@ -2200,10 +1595,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 238,
-      "enabled": true,
-      "code3l": "SXM",
-      "code2l": "SX",
+     "code": "SX",
       "name": "Sint Maarten",
       "name_official": "Sint Maarten",
       "latitude": "18.04433885",
@@ -2211,10 +1603,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 148,
-      "enabled": true,
-      "code3l": "SVK",
-      "code2l": "SK",
+     "code": "SK",
       "name": "Slovakia",
       "name_official": "Slovak Republic",
       "latitude": "48.66923253",
@@ -2222,10 +1611,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 149,
-      "enabled": true,
-      "code3l": "SVN",
-      "code2l": "SI",
+     "code": "SI",
       "name": "Slovenia",
       "name_official": "Republic of Slovenia",
       "latitude": "46.14315048",
@@ -2233,10 +1619,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 150,
-      "enabled": true,
-      "code3l": "SLB",
-      "code2l": "SB",
+     "code": "SB",
       "name": "Solomon Islands",
       "name_official": "Solomon Islands",
       "latitude": "-9.64554280",
@@ -2244,10 +1627,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 151,
-      "enabled": true,
-      "code3l": "SOM",
-      "code2l": "SO",
+     "code": "SO",
       "name": "Somalia",
       "name_official": "Federal Republic of Somalia",
       "latitude": "2.87224619",
@@ -2255,10 +1635,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 152,
-      "enabled": true,
-      "code3l": "ZAF",
-      "code2l": "ZA",
+     "code": "ZA",
       "name": "South Africa",
       "name_official": "Republic of South Africa",
       "latitude": "-27.17706863",
@@ -2266,10 +1643,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 215,
-      "enabled": true,
-      "code3l": "SGS",
-      "code2l": "GS",
+     "code": "GS",
       "name": "South Georgia and the South Sandwich Islands",
       "name_official": "South Georgia and the South Sandwich Islands",
       "latitude": "-54.38130284",
@@ -2277,10 +1651,7 @@ export const countriesList = [
       "zoom": 9
   },
   {
-      "id": 250,
-      "enabled": true,
-      "code3l": "SSD",
-      "code2l": "SS",
+     "code": "SS",
       "name": "South Sudan",
       "name_official": "Republic of South Sudan",
       "latitude": "7.91320803",
@@ -2288,10 +1659,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 153,
-      "enabled": true,
-      "code3l": "ESP",
-      "code2l": "ES",
+     "code": "ES",
       "name": "Spain",
       "name_official": "Kingdom of Spain",
       "latitude": "39.87299401",
@@ -2299,10 +1667,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 154,
-      "enabled": true,
-      "code3l": "LKA",
-      "code2l": "LK",
+     "code": "LK",
       "name": "Sri Lanka",
       "name_official": "Democratic Socialist Republic of Sri Lanka",
       "latitude": "7.61264985",
@@ -2310,10 +1675,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 155,
-      "enabled": true,
-      "code3l": "SDN",
-      "code2l": "SD",
+     "code": "SD",
       "name": "Sudan",
       "name_official": "Republic of Sudan",
       "latitude": "15.96646839",
@@ -2321,10 +1683,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 156,
-      "enabled": true,
-      "code3l": "SUR",
-      "code2l": "SR",
+     "code": "SR",
       "name": "Suriname",
       "name_official": "Republic of Suriname",
       "latitude": "4.26470865",
@@ -2332,10 +1691,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 237,
-      "enabled": true,
-      "code3l": "SJM",
-      "code2l": "SJ",
+     "code": "SJ",
       "name": "Svalbard and Jan Mayen",
       "name_official": "Svalbard and Jan Mayen",
       "latitude": "77.92215764",
@@ -2343,10 +1699,7 @@ export const countriesList = [
       "zoom": 4
   },
   {
-      "id": 157,
-      "enabled": true,
-      "code3l": "SWZ",
-      "code2l": "SZ",
+     "code": "SZ",
       "name": "Swaziland",
       "name_official": "Kingdom of Swaziland",
       "latitude": "-26.53892570",
@@ -2354,10 +1707,7 @@ export const countriesList = [
       "zoom": 9
   },
   {
-      "id": 158,
-      "enabled": true,
-      "code3l": "SWE",
-      "code2l": "SE",
+     "code": "SE",
       "name": "Sweden",
       "name_official": "Kingdom of Sweden",
       "latitude": "61.42370427",
@@ -2365,10 +1715,7 @@ export const countriesList = [
       "zoom": 4
   },
   {
-      "id": 159,
-      "enabled": true,
-      "code3l": "CHE",
-      "code2l": "CH",
+     "code": "CH",
       "name": "Switzerland",
       "name_official": "Swiss Confederation",
       "latitude": "46.81010721",
@@ -2376,10 +1723,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 160,
-      "enabled": true,
-      "code3l": "SYR",
-      "code2l": "SY",
+     "code": "SY",
       "name": "Syrian Arab Republic",
       "name_official": "Syrian Arab Republic",
       "latitude": "34.71097430",
@@ -2387,10 +1731,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 242,
-      "enabled": true,
-      "code3l": "TWN",
-      "code2l": "TW",
+     "code": "TW",
       "name": "Taiwan",
       "name_official": "Republic of China",
       "latitude": "23.71891402",
@@ -2398,10 +1739,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 161,
-      "enabled": true,
-      "code3l": "TJK",
-      "code2l": "TJ",
+     "code": "TJ",
       "name": "Tajikistan",
       "name_official": "Republic of Tajikistan",
       "latitude": "38.68075124",
@@ -2409,10 +1747,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 162,
-      "enabled": true,
-      "code3l": "THA",
-      "code2l": "TH",
+     "code": "TH",
       "name": "Thailand",
       "name_official": "Kingdom of Thailand",
       "latitude": "14.60009810",
@@ -2420,10 +1755,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 191,
-      "enabled": true,
-      "code3l": "MKD",
-      "code2l": "MK",
+     "code": "MK",
       "name": "The former Yugoslav Republic of Macedonia",
       "name_official": "The former Yugoslav Republic of Macedonia",
       "latitude": "41.60059479",
@@ -2431,10 +1763,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 163,
-      "enabled": true,
-      "code3l": "TLS",
-      "code2l": "TL",
+     "code": "TL",
       "name": "Timor-Leste",
       "name_official": "Democratic Republic of Timor-Leste",
       "latitude": "-8.88926365",
@@ -2442,10 +1771,7 @@ export const countriesList = [
       "zoom": 9
   },
   {
-      "id": 164,
-      "enabled": true,
-      "code3l": "TGO",
-      "code2l": "TG",
+     "code": "TG",
       "name": "Togo",
       "name_official": "Togolese Republic",
       "latitude": "8.68089206",
@@ -2453,10 +1779,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 241,
-      "enabled": true,
-      "code3l": "TKL",
-      "code2l": "TK",
+     "code": "TK",
       "name": "Tokelau (Associate Member)",
       "name_official": "Tokelau",
       "latitude": "-9.16682644",
@@ -2464,10 +1787,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 165,
-      "enabled": true,
-      "code3l": "TON",
-      "code2l": "TO",
+     "code": "TO",
       "name": "Tonga",
       "name_official": "Kingdom of Tonga",
       "latitude": "-21.17890075",
@@ -2475,10 +1795,7 @@ export const countriesList = [
       "zoom": 11
   },
   {
-      "id": 166,
-      "enabled": true,
-      "code3l": "TTO",
-      "code2l": "TT",
+     "code": "TT",
       "name": "Trinidad and Tobago",
       "name_official": "Republic of Trinidad and Tobago",
       "latitude": "10.43241863",
@@ -2486,10 +1803,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 167,
-      "enabled": true,
-      "code3l": "TUN",
-      "code2l": "TN",
+     "code": "TN",
       "name": "Tunisia",
       "name_official": "Republic of Tunisia",
       "latitude": "33.88431940",
@@ -2497,10 +1811,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 168,
-      "enabled": true,
-      "code3l": "TUR",
-      "code2l": "TR",
+     "code": "TR",
       "name": "Turkey",
       "name_official": "Republic of Turkey",
       "latitude": "38.27069555",
@@ -2508,10 +1819,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 169,
-      "enabled": true,
-      "code3l": "TKM",
-      "code2l": "TM",
+     "code": "TM",
       "name": "Turkmenistan",
       "name_official": "Turkmenistan",
       "latitude": "38.94915421",
@@ -2519,10 +1827,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 239,
-      "enabled": true,
-      "code3l": "TCA",
-      "code2l": "TC",
+     "code": "TC",
       "name": "Turks and Caicos Islands",
       "name_official": "Turks and Caicos Islands",
       "latitude": "21.72816866",
@@ -2530,10 +1835,7 @@ export const countriesList = [
       "zoom": 9
   },
   {
-      "id": 170,
-      "enabled": true,
-      "code3l": "TUV",
-      "code2l": "TV",
+     "code": "TV",
       "name": "Tuvalu",
       "name_official": "Tuvalu",
       "latitude": "-8.45968122",
@@ -2541,10 +1843,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 171,
-      "enabled": true,
-      "code3l": "UGA",
-      "code2l": "UG",
+     "code": "UG",
       "name": "Uganda",
       "name_official": "Republic of Uganda",
       "latitude": "1.54760620",
@@ -2552,10 +1851,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 172,
-      "enabled": true,
-      "code3l": "UKR",
-      "code2l": "UA",
+     "code": "UA",
       "name": "Ukraine",
       "name_official": "Ukraine",
       "latitude": "48.89358596",
@@ -2563,10 +1859,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 173,
-      "enabled": true,
-      "code3l": "ARE",
-      "code2l": "AE",
+     "code": "AE",
       "name": "United Arab Emirates",
       "name_official": "United Arab Emirates",
       "latitude": "24.64324405",
@@ -2574,10 +1867,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 186,
-      "enabled": true,
-      "code3l": "GBR",
-      "code2l": "GB",
+     "code": "GB",
       "name": "United Kingdom",
       "name_official": "United Kingdom of Great Britain and Northern Ireland",
       "latitude": "53.36540813",
@@ -2585,10 +1875,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 193,
-      "enabled": true,
-      "code3l": "TZA",
-      "code2l": "TZ",
+     "code": "TZ",
       "name": "United Republic of Tanzania",
       "name_official": "United Republic of Tanzania",
       "latitude": "-6.37551085",
@@ -2596,10 +1883,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 243,
-      "enabled": true,
-      "code3l": "UMI",
-      "code2l": "UM",
+     "code": "UM",
       "name": "United States Minor Outlying Islands",
       "name_official": "United States Minor Outlying Islands",
       "latitude": "19.46305694",
@@ -2607,10 +1891,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 244,
-      "enabled": true,
-      "code3l": "USA",
-      "code2l": "US",
+     "code": "US",
       "name": "United States of America",
       "name_official": "United States of America",
       "latitude": "37.66895362",
@@ -2618,10 +1899,7 @@ export const countriesList = [
       "zoom": 4
   },
   {
-      "id": 247,
-      "enabled": true,
-      "code3l": "VIR",
-      "code2l": "VI",
+     "code": "VI",
       "name": "United States Virgin Islands",
       "name_official": "Virgin Islands of the United States",
       "latitude": "18.01000938",
@@ -2629,10 +1907,7 @@ export const countriesList = [
       "zoom": 9
   },
   {
-      "id": 174,
-      "enabled": true,
-      "code3l": "URY",
-      "code2l": "UY",
+     "code": "UY",
       "name": "Uruguay",
       "name_official": "Eastern Republic of Uruguay",
       "latitude": "-32.49342987",
@@ -2640,10 +1915,7 @@ export const countriesList = [
       "zoom": 7
   },
   {
-      "id": 175,
-      "enabled": true,
-      "code3l": "UZB",
-      "code2l": "UZ",
+     "code": "UZ",
       "name": "Uzbekistan",
       "name_official": "Republic of Uzbekistan",
       "latitude": "41.30829147",
@@ -2651,10 +1923,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 176,
-      "enabled": true,
-      "code3l": "VUT",
-      "code2l": "VU",
+     "code": "VU",
       "name": "Vanuatu",
       "name_official": "Republic of Vanuatu",
       "latitude": "-15.37256614",
@@ -2662,10 +1931,7 @@ export const countriesList = [
       "zoom": 8
   },
   {
-      "id": 194,
-      "enabled": true,
-      "code3l": "VEN",
-      "code2l": "VE",
+     "code": "VE",
       "name": "Venezuela (Bolivarian Republic of)",
       "name_official": "Bolivarian Republic of Venezuela",
       "latitude": "5.98477766",
@@ -2673,10 +1939,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 177,
-      "enabled": true,
-      "code3l": "VNM",
-      "code2l": "VN",
+     "code": "VN",
       "name": "Viet Nam",
       "name_official": "Socialist Republic of Viet Nam",
       "latitude": "17.19931699",
@@ -2684,10 +1947,7 @@ export const countriesList = [
       "zoom": 5
   },
   {
-      "id": 246,
-      "enabled": true,
-      "code3l": "VGB",
-      "code2l": "VG",
+     "code": "VG",
       "name": "Virgin Islands",
       "name_official": "British Virgin Islands",
       "latitude": "17.67004187",
@@ -2695,10 +1955,7 @@ export const countriesList = [
       "zoom": 10
   },
   {
-      "id": 248,
-      "enabled": true,
-      "code3l": "WLF",
-      "code2l": "WF",
+     "code": "WF",
       "name": "Wallis and Futuna",
       "name_official": "Territory of the Wallis and Futuna Islands",
       "latitude": "-14.29378486",
@@ -2706,10 +1963,7 @@ export const countriesList = [
       "zoom": 12
   },
   {
-      "id": 207,
-      "enabled": true,
-      "code3l": "ESH",
-      "code2l": "EH",
+     "code": "EH",
       "name": "Western Sahara",
       "name_official": "Western Sahara",
       "latitude": "24.79324356",
@@ -2717,10 +1971,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 178,
-      "enabled": true,
-      "code3l": "YEM",
-      "code2l": "YE",
+     "code": "YE",
       "name": "Yemen",
       "name_official": "Republic of Yemen",
       "latitude": "15.60865453",
@@ -2728,10 +1979,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 179,
-      "enabled": true,
-      "code3l": "ZMB",
-      "code2l": "ZM",
+     "code": "ZM",
       "name": "Zambia",
       "name_official": "Republic of Zambia",
       "latitude": "-13.01812188",
@@ -2739,10 +1987,7 @@ export const countriesList = [
       "zoom": 6
   },
   {
-      "id": 180,
-      "enabled": true,
-      "code3l": "ZWE",
-      "code2l": "ZW",
+     "code": "ZW",
       "name": "Zimbabwe",
       "name_official": "Republic of Zimbabwe",
       "latitude": "-19.00784952",
