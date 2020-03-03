@@ -1,3 +1,5 @@
+import { country } from '@/services/countries'
+import { covid19Data } from '@/services/covid19'
 interface popup {
   country: string,
   confirmedTitle: string,
@@ -12,13 +14,9 @@ interface popup {
   totalDeaths: string
 }
 
-export interface marker {
-  id?: any,
-  lat: string,
-  lng: string,
-  title?: string,
-  icon?: string,
-  selected?: boolean,
+export interface marker extends country, covid19Data {
+  icon?: string
+  selected?: boolean
   popup?: popup
 }
 
