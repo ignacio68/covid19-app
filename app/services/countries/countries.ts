@@ -6,8 +6,7 @@ export function getCountry(countryCode: string){
   const countryData: ICountry = {
     // code: getCountryData["code"],
     // name: getCountryData["name"],
-    lat: getCountryData["latitude"],
-    lng: getCountryData["longitude"],
+    coordinates: [getCountryData["latitude"], getCountryData["longitude"]]
   }
   return countryData
 }

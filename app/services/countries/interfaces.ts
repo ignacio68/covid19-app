@@ -1,8 +1,7 @@
 export interface ICountry {
   code?: string,
   name?: string
-  lat: string,
-  lng: string,
+  coordinates: Array<number>,
   zoom?: number
   continent?: string
 }
