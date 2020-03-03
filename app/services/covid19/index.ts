@@ -1,1 +1,2 @@
-export { getCovid19CountryData } from './covid19'
+export * from './covid19'
+export * from './interfaces'
