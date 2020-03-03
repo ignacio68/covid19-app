@@ -1,4 +1,4 @@
-export interface covid19Data {
+export interface covid19CountryData {
   confirmed?: string | number
   suspected?: string | number
   deaths?: string | number

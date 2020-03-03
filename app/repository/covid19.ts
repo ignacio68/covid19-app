@@ -1,4 +1,4 @@
-export const covid19DataList = [
+export const covid19CountriesDataList = [
   {
     id: 'IT',
     confirmed: '93',
