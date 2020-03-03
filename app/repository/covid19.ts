@@ -1,6 +1,6 @@
 export const covid19DataList = [
   {
-    _id: 'IT',
+    id: 'IT',
     confirmed: '93',
     suspected: '93',
     deaths: '5',
@@ -8,7 +8,7 @@ export const covid19DataList = [
     totalDeaths: '11'
   },
   {
-    _id: 'ES',
+    id: 'ES',
     confirmed: '0',
     suspected: '0',
     deaths: '0',
@@ -16,7 +16,7 @@ export const covid19DataList = [
     totalDeaths: '0'
   },
   {
-    _id: 'FR',
+    id: 'FR',
     confirmed: '0',
     suspected: '0',
     deaths: '0',
@@ -24,7 +24,7 @@ export const covid19DataList = [
     totalDeaths: '0'
   },
   {
-    _id: 'UK',
+    id: 'UK',
     confirmed: '0',
     suspected: '0',
     deaths: '0',
