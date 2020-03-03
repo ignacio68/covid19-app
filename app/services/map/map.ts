@@ -12,6 +12,6 @@ function setMarker(countryCode: string){
 }
 
 export function getMarkers() {
-  const countriesMarkers = countriesList.forEach(code2l => setMarker("code2l"))
+  const countriesMarkers = countriesList.forEach(code => setMarker("code"))
   return countriesMarkers
 }
