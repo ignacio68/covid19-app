@@ -9,7 +9,7 @@
       mapStyle="traffic_night"
       :latitude="userLatitude"
       :longitude="userLongitude"
-      zoomLevel="zoomLevel"
+      :zoomLevel="zoomLevel"
       :hideCompass="true"
       :disableRotation="true"
       @mapReady="onMapReady"
