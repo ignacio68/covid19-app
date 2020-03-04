@@ -10,6 +10,14 @@ export default {
     title: 'Términos de Servicio',
     main: 'Página de los Términos de Servicio'
   },
+  signup: {
+    title: 'Regístrate',
+    accept_text_1: 'Al registrarte aceptas los ',
+    accept_terms: 'Términos de Servicio',
+    accept_text_2: ' y la ',
+    accept_privacy: 'Política de Privacidad',
+    button: 'REGISTRARME'
+  },
   main: {
     tabbar_map: 'MAPA',
     tabbar_charts: 'GRÁFICAS',
