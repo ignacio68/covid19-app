@@ -6,6 +6,10 @@ export default {
     title: 'Política de Privacidad',
     main: 'Página de la Política de Privacidad'
   },
+  terminos: {
+    title: 'Términos de Servicio',
+    main: 'Página de los Términos de Servicio'
+  },
   main: {
     tabbar_map: 'MAPA',
     tabbar_charts: 'GRÁFICAS',
