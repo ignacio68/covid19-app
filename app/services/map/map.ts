@@ -2,6 +2,7 @@ import { getCountry } from '@/services/countries'
 import { getCovid19CountryData } from '@/services/covid19'
 import { countriesList } from '@/repository'
 import { marker } from './interfaces'
+import { MapboxMarker } from 'nativescript-mapbox'
 
 const allCountriesMarkers: Array<any> = []
 

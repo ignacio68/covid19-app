@@ -1,4 +1,4 @@
-export interface countryData {
+export interface CountryData {
   code: string,
   name: string,
   name_official: string,

@@ -1,4 +1,4 @@
-export interface country {
+export interface Country {
   id?: string,
   lat?: string,
   lng?: string,

@@ -1,10 +1,10 @@
 import { covid19CountriesDataList } from '@/repository'
-import { covid19CountryData } from './interfaces'
+import { Covid19CountryData } from './interfaces'
 
 export function getCovid19CountryData(countryCode: string) {
   const filterCovid19CountrData = covid19CountriesDataList.filter(countryData => countryData.id === countryCode)
 
-  const covid19CountryData: covid19CountryData = {}
+  const covid19CountryData: Covid19CountryData = {}
 
   // covid19CountryData.confirmed = filterCovid19CountrData[0].confirmed,
   // covid19CountryData.suspected = filterCovid19CountrData[0].suspected,
