@@ -1,2 +1,2 @@
 export * from './countriesList'
-export * from './covid19'
+export * from './covid19CountriesDataList'

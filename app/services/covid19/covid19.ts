@@ -10,7 +10,9 @@ export function getCovid19CountryData(countryCode: string) {
   // covid19CountryData.suspected = filterCovid19CountrData[0].suspected,
   // covid19CountryData.deaths = filterCovid19CountrData[0].deaths,
   // covid19CountryData.totalConfirmed = filterCovid19CountrData[0].totalConfirmed,
-  covid19CountryData.subtitle = `muertos: ${filterCovid19CountrData[0].totalDeaths}`
+  const totalDeaths = filterCovid19CountrData[0].totalDeaths
+  console.log(`Muertos totales: ${totalDeaths}`)
+  covid19CountryData.subtitle = `muertos: ${totalDeaths}`
 
   return covid19CountryData
 }
