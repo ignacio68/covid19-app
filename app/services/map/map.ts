@@ -10,8 +10,8 @@ function setMarker(countryCode: string) {
   console.log('setMarker')
   const countryData = getCountry(countryCode)
   const covid19CountryData = getCovid19CountryData(countryCode)
-  // const marker = { ...countryData, ...covid19CountryData }
-  const marker = countryData
+  const marker = { ...countryData, ...covid19CountryData }
+  // const marker = countryData
   allCountriesMarkers.push(marker)
   // console.log(`marker: + ${JSON.stringify(marker)}`)
 }
