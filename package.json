@@ -18,7 +18,6 @@
   "dependencies": {
     "@nativescript/theme": "^2.2.1",
     "@vue/devtools": "^5.0.6",
-    "nativescript-couchbase-plugin": "^0.9.6",
     "nativescript-fonticon": "^2.0.0",
     "nativescript-mapbox": "^4.4.1",
     "nativescript-plugin-firebase": "^10.5.0",
