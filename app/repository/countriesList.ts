@@ -2,6 +2,7 @@ export const countriesList = [
   {
     code: 'AF',
     name: 'Afghanistan',
+    name_official: "Islamic Republic of Afghanistan",
     lat: '33.98299275',
     lng: '66.39159363',
     zoom: 6
@@ -9,6 +10,7 @@ export const countriesList = [
   {
     code: 'AX',
     name: 'Åland Islands',
+    name_official: "Åland Islands",
     lat: '60.25403213',
     lng: '20.35918350',
     zoom: 9
@@ -16,6 +18,7 @@ export const countriesList = [
   {
     code: 'AL',
     name: 'Albania',
+    name_official: "Republic of Albania",
     lat: '41.00017358',
     lng: '19.87170014',
     zoom: 7
@@ -23,6 +26,7 @@ export const countriesList = [
   {
     code: 'DZ',
     name: 'Algeria',
+    name_official: "People's Democratic Republic of Algeria",
     lat: '27.89861690',
     lng: '3.19771194',
     zoom: 5
@@ -30,6 +34,7 @@ export const countriesList = [
   {
     code: 'AS',
     name: 'American Samoa',
+    name_official: "The United States Territory of American Samoa",
     lat: '-14.30634641',
     lng: '-170.69501750',
     zoom: 11
