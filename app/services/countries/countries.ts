@@ -3,7 +3,7 @@ import { Country } from './interfaces'
 
 export function getCountry(countryCode: string) {
   const filterCountry= countriesList.filter(country => country.code === countryCode)
-  // console.log(`filterCountry: ${JSON.stringify(filterCountry)}`)
+  console.log(`filterCountry: ${JSON.stringify(filterCountry)}`)
   const countryData: Country = {}
   countryData.lat = filterCountry[0].lat,
   countryData.lng = filterCountry[0].lng,
