@@ -1,5 +1,5 @@
 export interface Country {
-  id?: string,
+  code?: string,
   lat?: string,
   lng?: string,
   zoom?: number
