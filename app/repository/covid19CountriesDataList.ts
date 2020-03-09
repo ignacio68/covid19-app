@@ -24,7 +24,7 @@ export const covid19CountriesDataList = [
     totalDeaths: 0
   },
   {
-    code: 'UK',
+    code: 'GB',
     confirmed: 0,
     suspected: 0,
     deaths: 0,
