@@ -1,30 +1,38 @@
 import { getCountry } from '@/services/countries'
 import { getCovid19CountryData } from '@/services/covid19'
-import { countriesList } from '@/repository'
+import { covid19CountriesDataList } from '@/repository'
 import { Marker } from './interfaces'
 import { MapboxMarker } from 'nativescript-mapbox'
 
-const allCountriesMarkers: Array<any> = []
+let markers: Array<object> = []
 
-function setMarker(countryCode: string) {
-  console.log('setMarker')
+async function setMarker(countryCode: string) {
+
   let marker: Marker = {}
-  // const countryData = getCountry(countryCode)
-  getCovid19CountryData(countryCode)
-    .then(countryCovid19Data => {
-      marker = { ...marker, ...countryCovid19Data }
-      const countryData = getCountry(countryCovid19Data[0].code)
+
+  await getCovid19CountryData(countryCode)
+    .then(covid19CountryData => {
+      marker = { ...covid19CountryData }
+      const countryData = getCountry(covid19CountryData.code)
+      return countryData
     })
-    .then(country => {
-      const countryData = getCountry(country[0].code)
+    .then(countryData => {
       marker = { ...marker, ...countryData }
-      console.log(`marker: + ${JSON.stringify(marker)}`)
-      allCountriesMarkers.push(marker)
+      markers.push(marker)
+      return markers
     })
-    .catch ( error => console.log(`setMarker error: ${error}`))
+    .catch ( error => console.log(`setMarker error: ${error.message}`))
 }
 
-export function getMarkers() {
-  countriesList.forEach(item => setMarker(item["code"]))
-  return allCountriesMarkers
+export async function getMarkers() {
+
+  for (let item of covid19CountriesDataList) {
+     await setMarker(item['code'])
+  }
+
+  try {
+    return markers
+  } catch (error) {
+    console.log(`getMarkers error: ${error.message}`)
+  }
 }
