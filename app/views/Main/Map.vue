@@ -27,10 +27,12 @@ export default class Map extends Vue {
 
   private accessToken: string = mapboxToken
 
-  showMarkers(args) {
-    console.log(console.dir(args))
-    const markers = getMarkers()
-    args.map.addMarkers(markers)
+  async showMarkers(args) {
+    await getMarkers()
+    .then(markers => {
+      console.log(`Map:markers: ${JSON.stringify(markers)}`)
+      args.map.addMarkers(markers)
+    })
   }
 }
 </script>
