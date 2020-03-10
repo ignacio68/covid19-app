@@ -1,5 +1,5 @@
-export interface Covid19CountryData {
-  code?: string
+export interface Covid19Data {
+  code?: string | undefined
   confirmed?: number
   suspected?: number
   deaths?: number
