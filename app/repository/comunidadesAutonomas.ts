@@ -1,122 +1,163 @@
-export const comndadesAutonomas = [
-         {
-           name: 'Andalucía',
-           oficialName: '',
-           lat: '37.366667',
-           lng: '-5.983333'
-         },
-         {
-           name: 'Aragón',
-           oficialName: '',
-           lat: '41.65635',
-           lng: '-0.876566'
-         },
-         {
-           name: 'Asturias',
-           oficialName: 'Principado de Asturias',
-           lat: '43.36',
-           lng: '-5.845'
-         },
-         {
-           name: 'Baleares',
-           oficialName: 'Islas Baleares',
-           lat: '39.566667',
-           lng: '2.65'
-         },
-         {
-           name: 'Canarias',
-           oficialNameame: 'Islas Canarias',
-           lat: '28.15',
-           lng: '-15.416667'
-         },
-         {
-           name: 'Cantabria',
-           oficialName: '',
-           lat: '43.45',
-           lng: '-3.8'
-         },
-         {
-           name: 'Castilla-La Mancha',
-           oficialName: '',
-           lat: '39.856528',
-           lng: '-4.025111'
-         },
-         {
-           name: 'Castilla y León',
-           oficialName: '',
-           lat: '41.633333',
-           lng: '-4.716667'
-         },
-         {
-           name: 'Cataluña',
-           oficialName: '',
-           lat: '41.383333',
-           lng: '2.166667'
-         },
-         {
-           name: 'Ceuta',
-           oficialName: '',
-           lat: '35.888056',
-           lng: '-5.316111'
-         },
-         {
-           name: 'Extremadura',
-           oficialName: '',
-           lat: '38.9',
-           lng: '-6.333333'
-         },
-         {
-           name: 'Galicia',
-           oficialName: '',
-           lat: '42.866667',
-           lng: '-8.55'
-         },
-         {
-           name: 'La Rioja',
-           oficialName: '',
-           lat: '42.464653',
-           lng: '-2.4458'
-         },
-         {
-           name: 'Andalucia',
-           oficialName: '',
-           lat: '37.3666',
-           lng: '-5.983'
-         },
-         {
-           name: 'Madrid',
-           oficialName: 'Comunidad de Madrid',
-           lat: '40.433333',
-           lng: '-3.683333'
-         },
-         {
-           name: 'Melilla',
-           oficialName: '',
-           lat: '35.291667',
-           lng: '-2.938333'
-         },
-         {
-           name: 'Murcia',
-           officialName: 'Región de Murcia',
-           lat: '37.986111',
-           lng: '-1.130278'
-         },
-         {
-           name: 'Navarra',
-           officialName: 'Navarra',
-           lat: '42.818333',
-           lng: '-1.644167'
-         },
-         {
-           name: 'Valencia',
-           officialName: 'Comunidad Valenciana',
-           lat: '39.47',
-           lng: '-0.376667'
-         },
-         {
-           name: 'País Vasco',
-           officialName: 'País Vasco',
-           lat: '42.85',
-           lng: '-2.683333'
-         }
-       ]
+type ComunidadAutonoma = {
+  id: string,
+  name: string,
+  officialName: string,
+  lat: string,
+  lng: string,
+  code: string
+}
+
+export const comunidadesAutonomas: ComunidadAutonoma[] = [
+  {
+    id: 'AN',
+    name: 'Andalucía',
+    officialName: 'Andalucía',
+    lat: '37.366667',
+    lng: '-5.983333',
+    code: '01'
+  },
+  {
+    id: 'AR',
+    name: 'Aragón',
+    officialName: 'Aragón',
+    lat: '41.65635',
+    lng: '-0.876566',
+    code: '02'
+  },
+  {
+    id: 'AS',
+    name: 'Asturias',
+    officialName: 'Principado de Asturias',
+    lat: '43.36',
+    lng: '-5.845',
+    code: '03'
+  },
+  {
+    id: 'BA',
+    name: 'Baleares',
+    officialName: 'Illes Balears',
+    lat: '39.566667',
+    lng: '2.65',
+    code: '04'
+  },
+  {
+    id: 'CA',
+    name: 'Canarias',
+    officialNameame: 'Canarias',
+    lat: '28.15',
+    lng: '-15.416667',
+    code: '05'
+  },
+  {
+    id: 'CN',
+    name: 'Cantabria',
+    officialName: 'Cantabria',
+    lat: '43.45',
+    lng: '-3.8',
+    code: '06'
+  },
+  {
+    id: 'CL',
+    name: 'Castilla y León',
+    officialName: 'Castilla y León',
+    lat: '41.633333',
+    lng: '-4.716667',
+    code: '07'
+  },
+  {
+    id: 'CM',
+    name: 'Castilla-La Mancha',
+    officialName: 'Castilla-La Mancha',
+    lat: '39.856528',
+    lng: '-4.025111',
+    code: '08'
+  },
+  {
+    id: 'CT',
+    name: 'Cataluña',
+    officialName: 'Cataluña',
+    lat: '41.383333',
+    lng: '2.166667',
+    code: '09'
+  },
+  {
+    id: 'CE',
+    name: 'Ceuta',
+    officialName: 'Ceuta',
+    lat: '35.888056',
+    lng: '-5.316111',
+    code: '18'
+  },
+  {
+    id: 'EX',
+    name: 'Extremadura',
+    officialName: 'Extremadura',
+    lat: '38.9',
+    lng: '-6.333333',
+    code: '11'
+  },
+  {
+    id: 'GA',
+    name: 'Galicia',
+    officialName: 'Galicia',
+    lat: '42.866667',
+    lng: '-8.55',
+    code: '12'
+  },
+  {
+    id: 'LR',
+    name: 'La Rioja',
+    officialName: 'La Rioja',
+    lat: '42.464653',
+    lng: '-2.4458',
+    code: '17'
+  },
+  {
+    id: 'MA',
+    name: 'Madrid',
+    officialName: 'Comunidad de Madrid',
+    lat: '40.433333',
+    lng: '-3.683333',
+    code: '13'
+  },
+  {
+    id: 'ME',
+    name: 'Melilla',
+    officialName: 'Melilla',
+    lat: '35.291667',
+    lng: '-2.938333',
+    code: '19'
+  },
+  {
+    id: 'MU',
+    name: 'Murcia',
+    officialName: 'Región de Murcia',
+    lat: '37.986111',
+    lng: '-1.130278',
+    code: '14'
+  },
+  {
+    id: 'NA',
+    name: 'Navarra',
+    officialName: 'Comunidad Foral de Navarra',
+    lat: '42.818333',
+    lng: '-1.644167',
+    code: '15'
+  },
+  {
+    id: 'VA',
+    name: 'Valencia',
+    officialName: 'Comunitat Valenciana',
+    lat: '39.47',
+    lng: '-0.376667',
+    code: '10'
+  },
+  {
+    id: 'PV',
+    name: 'País Vasco',
+    officialName: 'País Vasco',
+    lat: '42.85',
+    lng: '-2.683333',
+    code: '16'
+  }
+]
