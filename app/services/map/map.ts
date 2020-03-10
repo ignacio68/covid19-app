@@ -3,8 +3,25 @@ import { getCovid19CountryData } from '@/services/covid19'
 import { covid19CountriesDataList } from '@/repository'
 import { Marker } from './interfaces'
 import { MapboxMarker } from 'nativescript-mapbox'
+// import { compose } from '@/core'
 
 let markers: Array<object> = []
+let marker: Marker
+
+// TODO: --- FUNCTIONAL PROGRAMMING ---
+// const setMarker = countryCode => {
+//   let marker: Marker = {}
+// }
+
+// const populateMarker = markerData => { markerData }
+// const covidCountryData = countryCode => getCovid19CountryData(countryCode)
+// const countryData = countryCode => getCountry(countryCode)
+
+// const getMarkers = (dataBase:[]) => {
+//   for (let item of dataBase) {
+//     compose(setMarker, countryData, covidCountryData)
+//   }
+// }
 
 async function setMarker(countryCode: string) {
 
