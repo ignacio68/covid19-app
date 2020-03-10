@@ -1,7 +1,7 @@
 export type ComunidadAutonoma = {
   code: string,
   name: string,
-  officialName: string,
+  name_official: string,
   lat: string,
   lng: string,
   id: string
@@ -11,7 +11,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'AN',
     name: 'Andalucía',
-    officialName: 'Andalucía',
+    name_official: 'Andalucía',
     lat: '37.366667',
     lng: '-5.983333',
     id: '01'
@@ -19,7 +19,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'AR',
     name: 'Aragón',
-    officialName: 'Aragón',
+    name_official: 'Aragón',
     lat: '41.65635',
     lng: '-0.876566',
     id: '02'
@@ -27,7 +27,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'AS',
     name: 'Asturias',
-    officialName: 'Principado de Asturias',
+    name_official: 'Principado de Asturias',
     lat: '43.36',
     lng: '-5.845',
     id: '03'
@@ -35,7 +35,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'BA',
     name: 'Baleares',
-    officialName: 'Illes Balears',
+    name_official: 'Illes Balears',
     lat: '39.566667',
     lng: '2.65',
     id: '04'
@@ -43,7 +43,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'CA',
     name: 'Canarias',
-    officialName: 'Canarias',
+    name_official: 'Canarias',
     lat: '28.15',
     lng: '-15.416667',
     id: '05'
@@ -51,7 +51,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'CN',
     name: 'Cantabria',
-    officialName: 'Cantabria',
+    name_official: 'Cantabria',
     lat: '43.45',
     lng: '-3.8',
     id: '06'
@@ -59,7 +59,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'CL',
     name: 'Castilla y León',
-    officialName: 'Castilla y León',
+    name_official: 'Castilla y León',
     lat: '41.633333',
     lng: '-4.716667',
     id: '07'
@@ -67,7 +67,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'CM',
     name: 'Castilla-La Mancha',
-    officialName: 'Castilla-La Mancha',
+    name_official: 'Castilla-La Mancha',
     lat: '39.856528',
     lng: '-4.025111',
     id: '08'
@@ -75,7 +75,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'CT',
     name: 'Cataluña',
-    officialName: 'Cataluña',
+    name_official: 'Cataluña',
     lat: '41.383333',
     lng: '2.166667',
     id: '09'
@@ -83,7 +83,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'CV',
     name: 'Valencia',
-    officialName: 'Comunitat Valenciana',
+    name_official: 'Comunitat Valenciana',
     lat: '39.47',
     lng: '-0.376667',
     id: '10'
@@ -91,7 +91,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'CE',
     name: 'Ceuta',
-    officialName: 'Ceuta',
+    name_official: 'Ceuta',
     lat: '35.888056',
     lng: '-5.316111',
     id: '18'
@@ -99,7 +99,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'EX',
     name: 'Extremadura',
-    officialName: 'Extremadura',
+    name_official: 'Extremadura',
     lat: '38.9',
     lng: '-6.333333',
     id: '11'
@@ -107,7 +107,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'GA',
     name: 'Galicia',
-    officialName: 'Galicia',
+    name_official: 'Galicia',
     lat: '42.866667',
     lng: '-8.55',
     id: '12'
@@ -115,7 +115,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'LR',
     name: 'La Rioja',
-    officialName: 'La Rioja',
+    name_official: 'La Rioja',
     lat: '42.464653',
     lng: '-2.4458',
     id: '17'
@@ -123,7 +123,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'MA',
     name: 'Madrid',
-    officialName: 'Comunidad de Madrid',
+    name_official: 'Comunidad de Madrid',
     lat: '40.433333',
     lng: '-3.683333',
     id: '13'
@@ -131,7 +131,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'ME',
     name: 'Melilla',
-    officialName: 'Melilla',
+    name_official: 'Melilla',
     lat: '35.291667',
     lng: '-2.938333',
     id: '19'
@@ -139,7 +139,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'MU',
     name: 'Murcia',
-    officialName: 'Región de Murcia',
+    name_official: 'Región de Murcia',
     lat: '37.986111',
     lng: '-1.130278',
     id: '14'
@@ -147,7 +147,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'NA',
     name: 'Navarra',
-    officialName: 'Comunidad Foral de Navarra',
+    name_official: 'Comunidad Foral de Navarra',
     lat: '42.818333',
     lng: '-1.644167',
     id: '15'
@@ -155,7 +155,7 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
   {
     code: 'PV',
     name: 'País Vasco',
-    officialName: 'País Vasco',
+    name_official: 'País Vasco',
     lat: '42.85',
     lng: '-2.683333',
     id: '16'
