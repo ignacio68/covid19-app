@@ -9,6 +9,8 @@
 
 import Vue from "nativescript-vue"
 
+import { firebaseInit } from './services/firebase'
+
 import { device, isAndroid, isIOS } from "tns-core-modules/platform"
 
 // Add NativeScript plugin
@@ -44,6 +46,8 @@ Vue.config.silent = TNS_ENV === "production"
 
 // Add Mapbox component
 Vue.registerElement('Mapbox', () => require('nativescript-mapbox').MapboxView)
+
+firebaseInit()
 
 new Vue({
   i18n,
