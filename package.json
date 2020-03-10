@@ -47,8 +47,8 @@
     "node-sass": "^4.9.2",
     "prettier": "^1.19.1",
     "tns-platform-declarations": "^6.0.0",
-    "typescript": "^3.2.4",
-    "vue": "^2.5.22",
+    "typescript": "^3.8.0",
+    "vue": "^2.6.11",
     "vue-loader": "^15.4.0"
   }
 }
