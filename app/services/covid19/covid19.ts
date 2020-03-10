@@ -1,9 +1,10 @@
 import { covid19CountriesDataList } from '@/repository'
+import { covid19ComunidadesFake } from '@/repository'
 import { Covid19CountryData } from './interfaces'
 
-export async function getCovid19CountryData(countryCode: string) {
-  const filterCovid19CountryData = covid19CountriesDataList.filter(
-    country => country.code === countryCode
+export async function getCovid19CountryData(siteCode: string) {
+  const filterCovid19CountryData = covid19ComunidadesFake.filter(
+    country => country.code === siteCode
   )
   const covid19CountryData: Covid19CountryData = {}
   // covid19CountryData.confirmed = filterCovid19CountrData[0].confirmed,

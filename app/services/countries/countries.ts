@@ -1,8 +1,9 @@
 import { countriesList } from '@/repository'
+import { comunidadesAutonomas } from  '@/repository'
 import { Country } from './interfaces'
 
-export function getCountry(countryCode: string | undefined): Country {
-  const filterCountry = countriesList.filter(country => country.code === countryCode)
+export function getCountry(siteCode: string | undefined): Country {
+  const filterCountry = comunidadesAutonomas.filter(country => country.code === siteCode)
   const countryData: Country = {}
   countryData.lat = filterCountry[0].lat,
   countryData.lng = filterCountry[0].lng,
@@ -14,9 +15,9 @@ export function getCountry(countryCode: string | undefined): Country {
 
 
 // TODO: --- FUNCTIONAL PROGRAMMING ---
-// const filterCountry = countryCode => countriesList.filter(country => country.code === countryCode)
+// const filterCountry = siteCode => countriesList.filter(country => country.code === siteCode)
 
-// export const country = countryCode => {
+// export const country = siteCode => {
 //   const countryData: Country = {}
 //   countryData.lat = filterCountry[0].lat,
 //   countryData.lng = filterCountry[0].lng,
