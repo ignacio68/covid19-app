@@ -43,6 +43,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
+import { getCollection } from '@/infraestructure/firestore'
 import Map from './Main/Map.vue'
 import Charts from './Main/Charts.vue'
 import Info from './Main/Info.vue'
@@ -53,7 +54,11 @@ import Info from './Main/Info.vue'
     Info
   }
 })
-export default class AppNavigator extends Vue {}
+export default class AppNavigator extends Vue {
+  created() {
+    getCollection('covid19-spain', '20200310')
+  }
+}
 </script>
 
 <style scoped>
