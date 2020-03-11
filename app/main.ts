@@ -10,6 +10,7 @@
 import Vue from "nativescript-vue"
 import { device, isAndroid, isIOS } from 'tns-core-modules/platform'
 import Welcome from './views/Welcome.vue'
+import AppNavigator from './views/AppNavigator.vue'
 import { firebaseInit } from './services/firebase'
 
 // Add NativeScript plugin
@@ -69,5 +70,5 @@ new v({
       console.log("No se encuentra el idioma del navegador")
     }
   },
-  render: h => h("frame", [h(Welcome)])
+  render: h => h("frame", [h(AppNavigator)])
 }).$start()
