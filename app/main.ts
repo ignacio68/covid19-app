@@ -4,18 +4,18 @@
  * @copyright Ignacio López-Amor Pinillos 2020
  * @author Ignacio López-Amor Pinillos <ignaciolopezamor@gmail.com>
  * @license MIT
- * @version 0.1.0
+ * @version 0.3.0
  */
 
 import Vue from "nativescript-vue"
-
+import { device, isAndroid, isIOS } from 'tns-core-modules/platform'
+import Welcome from './views/Welcome.vue'
 import { firebaseInit } from './services/firebase'
-
-import { device, isAndroid, isIOS } from "tns-core-modules/platform"
 
 // Add NativeScript plugin
 import { TNSFontIcon, fonticon } from 'nativescript-fonticon'
 
+// VUEX
 import store from "./store"
 
 // Import languages
@@ -23,11 +23,11 @@ import i18n from "./setup/i18n"
 
 import VueDevtools from "nativescript-vue-devtools"
 
-// Add view components
-import AppNavigator from "./views/AppNavigator.vue"
+const v = <any>Vue
+declare const TNS_ENV: any
 
 if (TNS_ENV !== "production") {
-  Vue.use(VueDevtools)
+  v.use(VueDevtools)
 }
 
 // Load TNSFonticon
@@ -39,23 +39,23 @@ TNSFontIcon.paths = {
   fab: './assets/css/brand.css'
 }
 TNSFontIcon.loadCss()
-Vue.filter('fonticon', fonticon)
+v.filter('fonticon', fonticon)
 
 // Prints Vue logs when --env.production is *NOT* set while building
-Vue.config.silent = TNS_ENV === "production"
+v.config.silent = TNS_ENV === "production"
 
 // Add Mapbox component
-Vue.registerElement('Mapbox', () => require('nativescript-mapbox').MapboxView)
+v.registerElement('Mapbox', () => require('nativescript-mapbox').MapboxView)
 
 firebaseInit()
 
-new Vue({
+new v({
   i18n,
   store,
   beforeCreate() {
     // Set the platform OS global variable
-    Vue.prototype.IS_ANDROID = isAndroid
-    Vue.prototype.IS_IOS = isIOS
+    v.prototype.IS_ANDROID = isAndroid
+    v.prototype.IS_IOS = isIOS
     console.log(`Running on Android? ${isAndroid}`)
     console.log(`Running on iOS? ${isIOS}`)
 
@@ -69,5 +69,5 @@ new Vue({
       console.log("No se encuentra el idioma del navegador")
     }
   },
-  render: h => h("frame", [h(AppNavigator)])
+  render: h => h("frame", [h(Welcome)])
 }).$start()

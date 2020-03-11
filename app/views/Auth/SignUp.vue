@@ -50,7 +50,7 @@ import { Vue } from 'vue-property-decorator'
 // Views
 import PrivacyPolicy from '@/views/Privacy/PrivacyPolicy.vue'
 import TermsOfService from '@/views/Privacy/TermsOfService.vue'
-import AppNavigator from './AppNAvigator.vue'
+import AppNavigator from '@/views/AppNavigator.vue'
 
 export default class SignUp extends Vue {
    toPrivacyPolicy() {

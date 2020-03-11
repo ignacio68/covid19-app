@@ -24,7 +24,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import SignUp from '@/Auth/SignUp.vue'
+import SignUp from '@/views/Auth/SignUp.vue'
 import FontIcon from '@/components/Core/FontIcon.vue'
 
 @Component({
