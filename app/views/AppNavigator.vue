@@ -56,6 +56,7 @@ import Info from './Main/Info.vue'
 })
 export default class AppNavigator extends Vue {
   created() {
+    console.log('CREATED!!')
     getCollection({collectionName: 'covid19-spain'})
   }
 }
