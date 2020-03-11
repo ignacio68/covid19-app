@@ -1,6 +1,8 @@
 export default {
   welcome: {
-    title: 'WELCOME ABOUT COVID-19 APPLICATION'
+    title: 'WELCOME ABOUT COVID-19 APPLICATION',
+    later: 'Later',
+    signup: 'Sign Up'
   },
   privacy: {
     title: 'Privacy Policy',

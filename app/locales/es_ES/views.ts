@@ -1,6 +1,8 @@
 export default {
   welcome: {
-    title: 'BIENVENIDO/A A LA APLICACCIÓN SOBRE EL COVID-19'
+    title: 'BIENVENIDO/A A LA APLICACCIÓN SOBRE EL COVID-19',
+    later: 'Ahora no',
+    signup: 'Registrarse'
   },
   privacy: {
     title: 'Política de Privacidad',
