@@ -13,17 +13,28 @@
         :text="$t('lang.views.welcome.title')"
         textWrap="true"
       />
-      <Button
-        :text="$t('lang.views.welcome.signup')"
-        class="-primary"
-        @tap="toSignUp"
-      />
+      <StackLayout
+        orientation="horizontal"
+        horizonatalAlignment="center"
+      >
+        <Button
+          :text="$t('lang.views.welcome.later')"
+          class="buttonLater"
+          @tap="toAppNavigator"
+        />
+        <Button
+          :text="$t('lang.views.welcome.signup')"
+          class="-primary"
+          @tap="toSignUp"
+        />
+      </StackLayout>
     </StackLayout>
   </Page>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
+import AppNavigator from './AppNavigator.vue'
 import SignUp from '@/views/Auth/SignUp.vue'
 import FontIcon from '@/components/Core/FontIcon.vue'
 
@@ -33,6 +44,9 @@ import FontIcon from '@/components/Core/FontIcon.vue'
   }
 })
 export default class Welcome extends Vue {
+  toAppNavigator() {
+      this.$navigateTo(AppNavigator)
+    }
   toSignUp() {
       this.$navigateTo(SignUp)
     }
@@ -45,5 +59,8 @@ export default class Welcome extends Vue {
   text-align: center;
   margin-top: 16px;
   font-size: 20px;
+}
+.buttonLater {
+  background-color: transparent;
 }
 </style>
