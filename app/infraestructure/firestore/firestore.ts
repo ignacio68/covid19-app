@@ -10,6 +10,7 @@ const setCollection: any = (collectionName: string) => firebase.firestore.collec
 const setDocumentRef: any = (dataCollection: any, documentName: string) => dataCollection.doc(documentName)
 
 export function getCollection(data: GetCollection) {
+  console.log('getCollection')
   const dataCollection = setCollection(data.collectionName)
   // const documentRef = setDocumentRef(dataCollection, data.documentName)
     dataCollection.get()
@@ -17,4 +18,4 @@ export function getCollection(data: GetCollection) {
         snapshot.forEach(doc => console.log(`${doc.id} => ${doc.data()}`))
       })
     .catch(error => console.log(`getCollection error: ${error.message}`))
-  }
+}
