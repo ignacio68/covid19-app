@@ -1,7 +1,10 @@
 export interface Place {
-  code?: string | undefined,
+  code?: string,
+  name?: string,
+  name_official?: string,
   lat?: string,
   lng?: string,
+  id?: string | undefined,
   zoom?: number
   continent?: string
   title?: string
