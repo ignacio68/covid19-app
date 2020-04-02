@@ -1,6 +1,6 @@
 // import { covid19CountriesDataList } from '@/repository'
 // import { covid19ComunidadesFake } from '@/repository'
-import { Covid19Data } from '@/services/types'
+import { Covid19Data } from './types'
 
 // export async function getCovid19Data(siteCode: string) {
 //   const filterCovid19PlaceData = covid19ComunidadesFake.filter(

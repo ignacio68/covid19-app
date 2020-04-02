@@ -9,4 +9,3 @@ export const setMarkers = (dataPlaces: Place[], covid19DataPlaces: Covid19Data[]
       // TODO: assign the new marker to markers array
     }
   }
-  

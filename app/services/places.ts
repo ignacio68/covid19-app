@@ -1,6 +1,6 @@
 // import { countriesList } from '@/repository'
 // import { comunidadesAutonomas } from  '@/repository'
-import { Place } from '@/services/types'
+import { Place } from './types'
 
 const filterPlaceWithPlaceCode = (dataPlaces: Place[], codePlace: string) => dataPlaces.filter(place => place.code === codePlace)
 

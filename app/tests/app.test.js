@@ -1,17 +1,24 @@
 import test from 'tape'
-import { filterPlaceWithSiteCode } from '@/services/places'
+import { filterPlaceWithSiteCode, setPlace } from '@/services/places'
 
-test('Should be return the place code', t => {
+test('It should return the place code', t => {
     
     // Arrange
-    const places = []
-    const code =""
+    const places = [{
+        code: 'AN',
+        name: 'Andalucía',
+        name_official: 'Andalucía',
+        lat: '37.366667',
+        lng: '-5.983333',
+        id: '01'
+      }]
+    const code ="AN"
 
     //  Act
     const result = filterPlaceWithSiteCode(places, code)
 
     // Assert
-    t.equal(result, 'Madrid')
+    t.equal(result[0].name, 'Andalucía')
 
     t.end()
 })

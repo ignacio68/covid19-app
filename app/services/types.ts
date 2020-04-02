@@ -8,7 +8,7 @@ export interface Covid19Data {
     subtitle?: string
   }
 
-  export interface Place {
+export interface Place {
     code?: string,
     name?: string,
     name_official?: string,
@@ -21,7 +21,7 @@ export interface Covid19Data {
     onTap?: Function
   }
 
-  export interface Marker extends Place, Covid19Data {
+export interface Marker extends Place, Covid19Data {
     icon?: string
     selected?: boolean
   }

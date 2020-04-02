@@ -1,1 +1,0 @@
-export { getMarkers } from './map'

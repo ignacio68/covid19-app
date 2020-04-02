@@ -15,7 +15,8 @@
 import { Component, Vue } from 'vue-property-decorator'
 import { mapboxToken } from '@/setup/Mapbox'
 import MapComponent from '@/components/Main/MapComponent.vue'
-import { getMarkers } from '@/services/map'
+import { setMarkers } from '@/api'
+import { comunidadesAutonomas, covid19ComunidadesFake } from '@/repository'
 
 @Component({
   components: {
@@ -25,14 +26,16 @@ import { getMarkers } from '@/services/map'
 
 export default class Map extends Vue {
 
-  private accessToken: string = mapboxToken
+  private accessToken = mapboxToken
 
-  async showMarkers(args) {
-    await getMarkers()
-    .then(markers => {
-      console.log(`Map:markers: ${JSON.stringify(markers)}`)
-      args.map.addMarkers(markers)
-    })
-  }
+  private showMarkers = args => args.map.addMarkers(setMarkers(comunidadesAutonomas, covid19ComunidadesFake))
+
+  // async showMarkers(args) {
+  //   await setMarkers()
+  //   .then(markers => {
+  //     console.log(`Map:markers: ${JSON.stringify(markers)}`)
+  //     args.map.addMarkers(markers)
+  //   })
+  // }
 }
 </script>
