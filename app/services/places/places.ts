@@ -1,25 +1,18 @@
-import { countriesList } from '@/repository'
-import { comunidadesAutonomas } from  '@/repository'
-import { Place } from './interfaces'
+// import { countriesList } from '@/repository'
+// import { comunidadesAutonomas } from  '@/repository'
+import { Place } from '@/services/types'
 
-export function getPlace(siteCode?: string): Place {
-  const filterCountry = comunidadesAutonomas.filter(country => country.code === siteCode)
-  const placeData: Place = {}
-  placeData.lat = filterCountry[0].lat,
-  placeData.lng = filterCountry[0].lng,
-  placeData.title = filterCountry[0].name
-  // placeData.onTap = placeData => console.log(`El pais elegido es: ${placeData.name}`)
+const filterPlaceWithPlaceCode = (dataPlaces: Place[], codePlace: string) => dataPlaces.filter(place => place.code === codePlace)
 
+export const getDataPlace = (dataPlaces: Place[], codePlace: string):Place => {
+  // const filterCountry = comunidadesAutonomas.filter(country => country.code === codePlace)
+  const filterCountry = filterPlaceWithPlaceCode(dataPlaces, codePlace)
+  const placeData: Place = {
+    lat: filterCountry[0].lat,
+    lng: filterCountry[0].lng,
+    title: filterCountry[0].name
+    // onTap = placeData => console.log(`El pais elegido es: ${placeData.name}`)
+  }
+  
   return placeData
 }
-
-
-// TODO: --- FUNCTIONAL PROGRAMMING ---
-// const filterCountry = siteCode => countriesList.filter(country => country.code === siteCode)
-
-// export const country = siteCode => {
-//   const placeData: Country = {}
-//   placeData.lat = filterCountry[0].lat,
-//   placeData.lng = filterCountry[0].lng,
-//   placeData.title = filterCountry[0].name
-// }
