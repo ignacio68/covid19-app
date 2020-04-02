@@ -1,5 +1,6 @@
 module.exports = {
   singleQuote: true,
   semi: false,
-  endOfLine: "auto"
-};
+  endOfLine: "auto",
+  printWidth: 80
+}
