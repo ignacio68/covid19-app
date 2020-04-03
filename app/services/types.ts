@@ -25,4 +25,9 @@ export interface Marker extends Place, Covid19Data {
     icon?: string
     selected?: boolean
   }
-  
+
+  export type setMarkerOptions = {
+    dataPlaces: Place[], 
+    covid19DataPlaces: Covid19Data[], 
+    codePlace: string
+  }

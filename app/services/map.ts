@@ -1,6 +1,6 @@
 import { getDataPlace } from './places'
 import { getCovid19PlaceData } from './covid19'
-import { Covid19Data, Place, Marker } from './types'
+import { Covid19Data, Place, Marker, setMarkerOptions } from './types'
 // import { covid19CountriesDataList } from '@/repository'
 // import { covid19ComunidadesFake } from '@/repository'
 // import { comunidadesAutonomas } from  '@/repository'
@@ -26,9 +26,9 @@ const markers: Marker[] = []
 const setDataPlace = (dataPlaces: Place[], codePlace: string): Place => getDataPlace(dataPlaces, codePlace)
 const setCovid19PlaceData = (covid19DataPlace: Covid19Data[], codePlace: string): Covid19Data =>  getCovid19PlaceData(covid19DataPlace, codePlace)
 
-export const setMarker = (dataPlaces: Place[], covid19DataPlaces: Covid19Data[], codePlace: string): Marker => {
-  const dataPlace = setDataPlace(dataPlaces, codePlace)
-  const covid19DataPlace = setCovid19PlaceData(covid19DataPlaces, codePlace)
+export const setMarker = (options: setMarkerOptions): Marker => {
+  const dataPlace = setDataPlace(options.dataPlaces, options.codePlace)
+  const covid19DataPlace = setCovid19PlaceData(options.covid19DataPlaces, options.codePlace)
   const marker = {...dataPlace, ...covid19DataPlace}
   return marker
 }
