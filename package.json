@@ -15,11 +15,12 @@
     }
   },
   "scripts": {
-    "tape": "tape tests/**/*.test.js | tap-nirvana"
+    "tape": "tape -r @babel/register ./tests/**/*.test.js | tap-nirvana"
   },
   "dependencies": {
     "@nativescript/theme": "^2.2.1",
     "@vue/devtools": "^5.0.6",
+    "@vue/test-utils": "^1.0.0-beta.32",
     "nativescript-fonticon": "^2.0.0",
     "nativescript-mapbox": "^4.4.1",
     "nativescript-plugin-firebase": "^10.5.0",
@@ -37,6 +38,7 @@
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.9.0",
     "@types/node": "^12.12.16",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.2",
