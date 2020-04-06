@@ -15,7 +15,7 @@
     }
   },
   "scripts": {
-    "tape": "tape  -r ./app/tests/setup.js ./app/tests/**/*.test.js | tap-nirvana"
+    "tape": "tape  -r ./app/tests/helpers/setup.js ./app/tests/**/*.test.js | tap-nirvana"
   },
   "dependencies": {
     "@nativescript/theme": "^2.3.3",
