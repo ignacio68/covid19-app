@@ -7,10 +7,10 @@ import { Covid19Data } from './types'
 //     country => country.code === siteCode
 //   )
 //   const Covid19Data: Covid19Data = {}
-//   // Covid19Data.confirmed = filterCovid19CountrData[0].confirmed,
-//   // Covid19Data.suspected = filterCovid19CountrData[0].suspected,
+//   // Covid19Data.confirmed = filterCovid19CountryData[0].confirmed,
+//   // Covid19Data.suspected = filterCovid19CountryData[0].suspected,
 //   // Covid19Data.deaths = filterCovid19PlaceData[0].deaths
-//   // Covid19Data.totalConfirmed = filterCovid19CountrData[0].totalConfirmed,
+//   // Covid19Data.totalConfirmed = filterCovid19CountryData[0].totalConfirmed,
 //   const totalConfirmed = filterCovid19PlaceData[0].totalConfirmed
 //   const totalDeaths = filterCovid19PlaceData[0].totalDeaths
 //   Covid19Data.code = filterCovid19PlaceData[0].code
