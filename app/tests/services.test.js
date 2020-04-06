@@ -1,7 +1,7 @@
 import test from 'tape'
 import { filterPlaceWithSiteCode, setPlace } from '@/services/places'
 
-test('It should return the place code', t => {
+test('It should return the place corresponding to place code', t => {
     
     // Arrange
     const places = [{
