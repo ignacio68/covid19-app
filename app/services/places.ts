@@ -1,6 +1,5 @@
+import { filterPlaceWithPlaceCode } from './helpers'
 import { Place } from './types'
-
-const filterPlaceWithPlaceCode = (dataPlaces: Place[], codePlace: string) => dataPlaces.filter(place => place.code === codePlace)
 
 export const getDataPlace = (dataPlaces: Place[], codePlace: string):Place => {
   const filterCountry = filterPlaceWithPlaceCode(dataPlaces, codePlace)
