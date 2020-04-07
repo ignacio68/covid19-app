@@ -17,6 +17,9 @@
   "scripts": {
     "tape": "tape  -r ./app/tests/helpers/setup.js ./app/tests/**/*.test.js | tap-nirvana"
   },
+  "_moduleAliases": {
+    "@": "./app"
+  },
   "dependencies": {
     "@nativescript/theme": "^2.3.3",
     "nativescript-fonticon": "^2.0.0",
