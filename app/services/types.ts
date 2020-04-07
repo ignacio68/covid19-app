@@ -26,7 +26,7 @@ export interface Marker extends Place, Covid19Data {
     selected?: boolean
   }
 
-  export type setMarkerOptions = {
+export type setMarkerOptions = {
     dataPlaces: Place[], 
     covid19DataPlaces: Covid19Data[], 
     codePlace: string
