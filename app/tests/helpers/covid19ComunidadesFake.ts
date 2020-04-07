@@ -4,7 +4,7 @@ export type Covid19Comunidad = {
   totalDeaths: number
 }
 
-export const covid19ComunidadesFake: Covid19Comunidad[] = [
+export const covid19Comunidades: Covid19Comunidad[] = [
   {
     code: 'AN',
     totalConfirmed: 54,
