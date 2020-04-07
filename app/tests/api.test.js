@@ -10,6 +10,6 @@ test('setMarkers should get all the place markers with the corresponding info', 
     const result = setMarkers(places, covid19Data)
 
     // Asserts
-    t.deepEqual(result[1].code, 'AR')
+    t.deepEqual(result[1].code, 'AR', 'The markers information are set')
     t.end()
 })

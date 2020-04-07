@@ -14,7 +14,7 @@ test('filterPlaceWithPlaceCode should filter the data of the place corresponding
     const result = filterPlaceWithPlaceCode(places, code)
 
     // Assert
-    t.deepEqual(result[0].name, 'Andalucía')
+    t.deepEqual(result[0].name, 'Andalucía', 'The place is filtered and its data is returned')
     t.end()
 })
 
@@ -26,7 +26,7 @@ test('filterPlaceWithPlaceCode should filter the Covid 19 data of the place corr
   const result = filterPlaceWithPlaceCode(covid19Data, code)
 
   // Assert
-  t.deepEqual(result[0].totalConfirmed, 54)
+  t.deepEqual(result[0].totalConfirmed, 54, 'The place is filtered and its Covid 19 data is returned')
   t.end()
 })
 
@@ -38,7 +38,7 @@ test('getDataPlace should return the data of the place corresponding to the plac
   const result = getDataPlace(places, code)
 
   //Assert
-  t.deepEqual(result.lat, '43.36')
+  t.deepEqual(result.lat, '43.36', 'The data of the place is set and returned' )
   t.end()
 })
 
@@ -47,11 +47,11 @@ test('getCovid19PlaceData should return the Covid 19 data of the place correspon
   const code = "MA"
   
   //Act
-  const result = getCovid19PlaceData(covid19Data, code)
+  const result = getCovid19PlaceData(covid19Data, code, 'The Covid data of the place is set and returned')
 
   //Assert
   t.deepEqual(result.subtitle, `contagiados: 782
-    fallecidos: 21`)
+    fallecidos: 21`, 'The Covid 19 data of the place is set and returned' )
   t.end()
 })
 
@@ -63,6 +63,6 @@ test('setMarker should return the info of the marker of the corresponding place 
   const result = setMarker({ dataPlaces: places, covid19DataPlaces: covid19Data, codePlace: code })
 
   // Assert
-  t.deepEqual(result.code, 'CA')
+  t.deepEqual(result.code, 'CA', 'The info of the marker corresponding to the place is set and returned')
   t.end()
 })
