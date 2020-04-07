@@ -15,8 +15,9 @@
     }
   },
   "scripts": {
-    "tape": "nyc tape -r ./app/tests/helpers/setup.js ./app/tests/**/*.test.js | tap-notify | tap-nirvana",
-    "fstest": "nyc tape -r ./app/tests/helpers/setup.js ./app/tests/**/*.fbtest.js | tap-nirvana"
+    "test": "karma start --single-run",
+    "tape": "nyc tape -r ./app/tests/helpers/setup.js  babel-tape-register ./app/tests/**/*.test.js | tap-notify | tap-nirvana",
+    "fbtest": "nyc tape -r ./app/tests/helpers/setup.js ./app/tests/**/*.fbtest.js | tap-nirvana"
   },
   "_moduleAliases": {
     "@": "./app"
@@ -46,10 +47,19 @@
     "@vue/test-utils": "^1.0.0-beta.32",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.2",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-tape-runner": "^3.0.0",
     "browser-env": "^3.3.0",
     "eslint": "^6.8.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-vue": "^6.2.1",
+    "faucet": "0.0.1",
+    "karma": "^4.4.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-tap": "^4.2.0",
+    "karma-tap-pretty-reporter": "^4.2.0",
+    "karma-webpack": "^4.0.2",
     "nativescript-dev-webpack": "^1.5.1",
     "nativescript-vue-template-compiler": "^2.5.1",
     "nativescript-worker-loader": "~0.9.0",
