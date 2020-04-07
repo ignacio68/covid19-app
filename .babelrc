@@ -3,5 +3,11 @@
     "development": {
       "compact": false
     }
-  }
+  },
+  "plugins": [
+    ["module-resolver", {
+      "@": "./app",
+      "extensions": ["js", "jsx", "vue", "ts"]
+    }]
+  ]
 }
