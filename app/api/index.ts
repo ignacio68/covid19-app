@@ -1,5 +1,5 @@
 // export * from './*'
-import { setMarker } from '../services/map'
+import { setMarker } from '@/services/map'
 import { Place, Covid19Data, Marker } from '../services/types'
 
 export const setMarkers = (dataPlaces: Place[], covid19DataPlaces: Covid19Data[]): Marker[] => {
