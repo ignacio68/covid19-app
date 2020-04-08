@@ -1,6 +1,6 @@
 # covid19 application
 
-> A native application built with NativeScript-Vue
+> A simple Covid19 information app built with NativeScript-Vue 
 
 ## Usage
 
