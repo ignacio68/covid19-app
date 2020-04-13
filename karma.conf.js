@@ -1,9 +1,11 @@
 // Karma configuration
 // Generated on Tue Apr 07 2020 18:42:28 GMT+0200 (hora de verano de Europa central)
-const webpackConfig = require('./webpack.config')
+const webpackConfig = require('./app/tests/helpers/webpack.config.test')
 
 module.exports = function(config) {
   config.set({
+    autowatch: true,
+    
     // base path that will be used to resolve all patterns (eg. files, exclude)
     basePath: '',
 
@@ -14,7 +16,7 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       // { pattern: 'app/tests/**/*.test.js', watched: false },
-      'app/tests/**/*.test.js'
+      { pattern: 'app/tests/**/*.test.js' }
       // 'app/tests/index_test.js'
     ],
 
@@ -29,12 +31,13 @@ module.exports = function(config) {
     },
 
     webpack: {
-      mode: webpackConfig.mode,
-      context: webpackConfig.context,
+      // mode: webpackConfig.mode,
+      // context: webpackConfig.context,
       resolve: webpackConfig.resolve,
-      node: webpackConfig.node,
+      // node: webpackConfig.node,
       module: webpackConfig.module,
-      devtool: 'inline-source-map'
+      // devtool: 'inline-source-map'
+      // config: './webpack.config.js'
     },
 
     webpackMiddleware: {
@@ -77,5 +80,6 @@ module.exports = function(config) {
     // Concurrency level
     // how many browser should be started simultaneous
     concurrency: Infinity
+    
   })
 }

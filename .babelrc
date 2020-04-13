@@ -2,12 +2,28 @@
   "env": {
     "development": {
       "compact": false
+    },
+    "test": {
+      "plugins": [
+        ["babel-plugin-webpack-alias-7"]
+      ]
     }
   },
   "plugins": [
-    ["module-resolver", {
-      "@": "./app",
-      "extensions": ["js", "jsx", "vue", "ts"]
-    }]
+    ["babel-plugin-webpack-alias-7"]
   ]
+  // "plugins": [
+  //   [
+  //     "module-resolver",
+  //     {
+  //       "root": ["./"],
+  //       // "@": "app/",
+  //       "alias": {
+  //         "@": "./app"
+  //       },
+  //       // "extensions": ["js", "jsx", "vue", "ts"],
+  //       "cwd": "babelrc"
+  //     }
+  //   ]
+  // ]
 }

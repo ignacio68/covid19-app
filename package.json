@@ -15,8 +15,8 @@
     }
   },
   "scripts": {
-    "test": "karma start --single-run",
-    "tape": "nyc tape -r ./app/tests/helpers/setup.js  babel-tape-register ./app/tests/**/*.test.js | tap-notify | tap-nirvana",
+    "test_fake": "karma start --single-run",
+    "tape": "tape -r ./app/tests/helpers/setup.js ./app/tests/**/*.test.js | tap-notify | tap-nirvana",
     "fbtest": "nyc tape -r ./app/tests/helpers/setup.js ./app/tests/**/*.fbtest.js | tap-nirvana"
   },
   "_moduleAliases": {
@@ -48,6 +48,7 @@
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.2",
     "babel-plugin-module-resolver": "^4.0.0",
+    "babel-plugin-webpack-alias-7": "^0.1.1",
     "babel-tape-runner": "^3.0.0",
     "browser-env": "^3.3.0",
     "eslint": "^6.8.0",
@@ -68,6 +69,7 @@
     "prettier": "^1.19.1",
     "require-extension-hooks": "^0.3.3",
     "require-extension-hooks-babel": "^1.0.0",
+    "require-extension-hooks-module": "^0.1.4",
     "require-extension-hooks-typescript": "^0.1.0",
     "require-extension-hooks-vue": "^3.0.0",
     "tap-nirvana": "^1.1.0",
