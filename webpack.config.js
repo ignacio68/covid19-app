@@ -14,16 +14,7 @@ const nativescriptTarget = require('nativescript-dev-webpack/nativescript-target
 const {
   NativeScriptWorkerPlugin
 } = require('nativescript-worker-loader/NativeScriptWorkerPlugin')
-const { path } = require('tns-core-modules')
 const hashSalt = Date.now().toString()
-
-// // ALIASES
-// const aliases = {
-//     '~': path.resolve (__dirname, './app'),
-//     '@': './app',
-//     'vue': 'nativescript-vue',
-//     "tns-core-modules": "@nativescript/core"
-// }
 
 module.exports = env => {
   // Add your custom Activities, Services and other android app components here.
@@ -57,7 +48,7 @@ module.exports = env => {
     // You can provide the following flags when running 'tns run android|ios'
     snapshot, // --env.snapshot
     production, // --env.production
-    report, // --env.reportsourceMap
+    report, // --env.report
     hmr, // --env.hmr
     sourceMap, // --env.sourceMap
     hiddenSourceMap, // --env.hiddenSourceMap
@@ -69,29 +60,25 @@ module.exports = env => {
   } = env
 
   const useLibs = compileSnapshot
-  const isAnySourceMapEnabled = !! || !!hiddenSourceMap
+  const isAnySourceMapEnabled = !!sourceMap || !!hiddenSourceMap
   const externals = nsWebpack.getConvertedExternals(env.externals)
 
   const mode = production ? 'production' : 'development'
 
   const appFullPath = resolve(projectRoot, appPath)
-  // const hasRootLevelScopedModules = nsWebpack.hasRootLevelScopedModules({ projectDir: projectRoot });
+  const hasRootLevelScopedModules = nsWebpack.hasRootLevelScopedModules({
+    projectDir: projectRoot
+  })
   let coreModulesPackageName = 'tns-core-modules'
-  // const alias = env.alias || {};
-  // alias['~'] = appFullPath;
-  // alias['@'] = appFullPath;
-  // alias['vue'] = 'nativescript-vue';
+  const alias = env.alias || {}
+  alias['~'] = appFullPath
+  alias['@'] = appFullPath
+  alias['vue'] = 'nativescript-vue'
 
-  // if (hasRootLevelScopedModules) {
-  //     coreModulesPackageName = "@nativescript/core";
-  //     alias["tns-core-modules"] = coreModulesPackageName;
-  // }
-  // const alias = {
-  //     '~': appFullPath,
-  //     '@': appFullPath,
-  //     'vue': 'nativescript-vue',
-  //     "tns-core-modules": "@nativescript/core"
-  // }
+  if (hasRootLevelScopedModules) {
+    coreModulesPackageName = '@nativescript/core'
+    alias['tns-core-modules'] = coreModulesPackageName
+  }
 
   const appResourcesFullPath = resolve(projectRoot, appResourcesPath)
 
@@ -175,12 +162,7 @@ module.exports = env => {
         `node_modules/${coreModulesPackageName}`,
         'node_modules'
       ],
-      alias: {
-        '~' : resolve(__dirname, 'app'),
-        '@': resolve(__dirname, 'app'),
-        'vue': 'nativescript-vue',
-        'tns-core-modules': '@nativescript/core'
-      },
+      alias,
       // resolve symlinks to symlinked modules
       symlinks: true
     },
