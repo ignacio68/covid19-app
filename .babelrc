@@ -2,18 +2,19 @@
   "env": {
     "development": {
       "compact": false
-    },
-    "test": {
-      "plugins": [
-        ["babel-plugin-webpack-alias-7"]
-      ]
     }
-  },
-  "plugins": [
-    ["babel-plugin-webpack-alias-7"]
-  ]
+  //   "test": {
+  //     "plugins": [
+  //       ["babel-plugin-webpack-alias-7"]
+  //     ]
+  //   }
+  }
+  // "plugins": [
+  //   ["babel-plugin-webpack-alias-7"]
+  // ]
   // "plugins": [
   //   [
+  //     "babel-plugin-webpack-alias-7",
   //     "module-resolver",
   //     {
   //       "root": ["./"],

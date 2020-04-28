@@ -161,3 +161,25 @@ export const comunidadesAutonomas: ComunidadAutonoma[] = [
     id: '16'
   }
 ]
+
+export const IDS = [
+  'AN',
+  'AR',
+  'AS',
+  'BA',
+  'CA',
+  'CN',
+  'CM',
+  'CL',
+  'CT',
+  'CV',
+  'CE',
+  'EX',
+  'GA',
+  'LR',
+  'MA',
+  'ME',
+  'MU',
+  'NA',
+  'PV'
+]

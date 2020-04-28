@@ -3,25 +3,25 @@ module.exports = function(api) {
 
   return {
     presets: [
-      ['@babel/preset-env', { targets: { esmodules: true, node: 'current' } }]
+      ['@babel/preset-env', { targets: { esmodules: true } }]
     ],
-    plugins: [
-      ["babel-plugin-webpack-alias-7"],
-    ],
-    env: {
-      test: {
-        presets: [
-          [
-            '@babel/preset-env',
-            {
-              targets: { esmodules: true, node: 'current' }
-            }
-          ]
-        ],
-        plugins: [
-          ["babel-plugin-webpack-alias-7"],
-        ]
-      }
-    },
+    // plugins: [
+    //   ["babel-plugin-webpack-alias-7"],
+    // ],
+    // env: {
+    //   test: {
+    //     presets: [
+    //       [
+    //         '@babel/preset-env',
+    //         {
+    //           targets: { esmodules: true, node: 'current' }
+    //         }
+    //       ]
+    //     ],
+    //     plugins: [
+    //       ["babel-plugin-webpack-alias-7"],
+    //     ]
+    //   }
+    // },
   }
 }

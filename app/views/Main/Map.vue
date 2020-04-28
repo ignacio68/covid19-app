@@ -18,7 +18,7 @@ import MapComponent from '@/components/Main/MapComponent.vue'
 import { setMarkers } from '@/api'
 import { getCollection } from '@/infraestructure/firestore'
 import { Covid19Data } from '@/services/types'
-import { comunidadesAutonomas } from '@/repository'
+import { comunidadesAutonomas, IDS } from '@/repository'
 // import { countriesList } from '@/repository'
 
 @Component({
@@ -32,7 +32,7 @@ export default class Map extends Vue {
   private accessToken = mapboxToken
 
   get markersInfo():any {
-    return getCollection({collectionName: 'covid19-spain', documentName:'20200310'})
+    return getCollection({collectionName: 'covid19-spain', documentName:'20200310', ids: IDS})
   }
 
   get markers() {
@@ -40,13 +40,5 @@ export default class Map extends Vue {
   }
 
   private showMarkers = args => args.map.addMarkers(this.markers)
-
-  // async showMarkers(args) {
-  //   await setMarkers()
-  //   .then(markers => {
-  //     console.log(`Map:markers: ${JSON.stringify(markers)}`)
-  //     args.map.addMarkers(markers)
-  //   })
-  // }
 }
 </script>

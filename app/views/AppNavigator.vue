@@ -43,7 +43,6 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import { getCollection } from '@/infraestructure/firestore'
 import Map from './Main/Map.vue'
 import Charts from './Main/Charts.vue'
 import Info from './Main/Info.vue'
@@ -55,10 +54,6 @@ import Info from './Main/Info.vue'
   }
 })
 export default class AppNavigator extends Vue {
-  created() {
-    const myCollection = getCollection({collectionName: 'covid19-spain'})
-    console.log(JSON.stringify(myCollection))
-  }
 }
 </script>
 

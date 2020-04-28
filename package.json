@@ -29,6 +29,7 @@
     "nativescript-plugin-firebase": "^10.5.0",
     "nativescript-socketio": "^3.2.1",
     "nativescript-toasty": "^1.3.0",
+    "nativescript-unit-test-runner": "^0.7.0",
     "nativescript-vue": "^2.4.0",
     "nativescript-vue-devtools": "^1.2.0",
     "tns-core-modules": "^6.5.0",
@@ -41,7 +42,7 @@
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
-    "@firebase/testing": "^0.18.2",
+    "@firebase/testing": "^0.19.0",
     "@types/node": "^12.12.16",
     "@vue/devtools": "^5.3.3",
     "@vue/test-utils": "^1.0.0-beta.32",
@@ -55,8 +56,10 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-vue": "^6.2.1",
     "faucet": "0.0.1",
-    "karma": "^4.4.1",
+    "karma": "^5.0.1",
     "karma-chrome-launcher": "^3.1.0",
+    "karma-nativescript-launcher": "^0.4.0",
+    "karma-qunit": "^4.0.0",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-tap": "^4.2.0",
     "karma-tap-pretty-reporter": "^4.2.0",
@@ -67,6 +70,7 @@
     "node-sass": "^4.9.2",
     "nyc": "^15.0.1",
     "prettier": "^1.19.1",
+    "qunit": "^2.9.3",
     "require-extension-hooks": "^0.3.3",
     "require-extension-hooks-babel": "^1.0.0",
     "require-extension-hooks-module": "^0.1.4",
@@ -78,6 +82,7 @@
     "tns-platform-declarations": "^6.0.0",
     "typescript": "^3.8.3",
     "vue": "^2.6.11",
-    "vue-loader": "^15.4.0"
+    "vue-loader": "^15.4.0",
+    "vue-template-compiler": "^2.6.11"
   }
 }
