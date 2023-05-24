@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/ignacio68/covid19-app.svg?branch=master)](https://travis-ci.org/ignacio68/covid19-app)
 # covid19 application
 
 > A simple Covid19 information app built with NativeScript-Vue 
